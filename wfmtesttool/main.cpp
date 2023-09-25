@@ -14,7 +14,14 @@ int main()
     cout << "Using: " << endl
          << _testpath << " as the test file." << endl;
     TekWFMObject TestTekObject;
-    TestTekObject.ParseWFMFile(_testpath);
-    cout << "WFM Version string reports as: " << TestTekObject.WFMVersion << endl;
+    auto retcode = TestTekObject.ParseWFMFile(_testpath);
+    if(retcode != 0)
+    {
+        cout << "Problem opening test file." << endl
+             << "return error was: " << retcode << endl;
+    } else {
+        cout << "WFM Version string reports as: "
+             << TestTekObject.WFMVersion() << endl;
+    }
     return 0;
 }
