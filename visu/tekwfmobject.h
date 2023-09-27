@@ -4,27 +4,40 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
-
+#include <algorithm>
+#include <arpa/inet.h>
 class TekWFMObject
 {
 public:
     TekWFMObject();
     int ParseWFMFile(std::string _wfmpath);
     std::string WFMVersion();
-    int BytesPerPoint();
+    char BytesPerPoint();
     std::string WaveformLabel();
     bool IsFastFrame();
-    long NumberOfFastFrames();
+    uint16_t GetNumberOfFrames();
 
-    std::vector<std::vector<int>> Waveforms;
+    std::vector<std::vector<uint16_t>> Waveforms;
+    double GetVoltageScale();
+    double GetVoltageOffset();
+    std::string GetVoltageUnits();
+    double GetTimescale();
+    double GetTriggerPosition();
+    uint16_t GetRecordLength();
+
 
 private:
     std::string _WFMVersion;
-    int _BytesPerPoint;
+    char _BytesPerPoint;
     std::string _WaveformLabel;
-    long _NumOfFastFrames;
     bool _IsFastFrameSet;
-
+    uint16_t _NumOfFastFrames;
+    double _VoltageScale;
+    double _VoltageOffset;
+    std::string _VoltageUnits;
+    double _TimeScale;
+    double _TriggerOffset;
+    uint16_t _RecordLength;
 };
 
 #endif // TEKWFMOBJECT_H

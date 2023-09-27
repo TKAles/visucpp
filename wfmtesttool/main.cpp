@@ -8,7 +8,7 @@ int main()
 {
     // Set this to the file to use as the dummy test
     // file.
-    std::string _testpath = "/home/tka/Documents/Beta21S/L0/DC-00-0000.wfm";
+    std::string _testpath = "/home/tka/Documents/Layer028/DC-00-0001.wfm";
 
     cout << "WFM Parser Utility Test Suite." << endl;
     cout << "Using: " << endl
@@ -22,6 +22,12 @@ int main()
     } else {
         cout << "WFM Version string reports as: "
              << TestTekObject.WFMVersion() << endl;
+        cout << "Bytes Per Point: " << TestTekObject.BytesPerPoint() << endl;
+        cout << "User Label: " << TestTekObject.WaveformLabel() << endl;
+        cout << "Number of Frames in File: " << TestTekObject.GetNumberOfFrames() << endl;
+        cout << "Voltage Scale: " << TestTekObject.GetVoltageScale() << "\tOffset: " << TestTekObject.GetVoltageOffset() << std::endl;
+        cout << "Timebase information:" << std::endl << "Record Length: " << TestTekObject.GetRecordLength() << std::endl
+             << "Time Scale: " << TestTekObject.GetTimescale() << "\tTrigger Position: " << TestTekObject.GetTriggerPosition() << std::endl;
     }
     return 0;
 }
