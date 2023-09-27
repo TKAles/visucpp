@@ -25,9 +25,9 @@ int main()
         cout << "Bytes Per Point: " << TestTekObject.BytesPerPoint() << endl;
         cout << "User Label: " << TestTekObject.WaveformLabel() << endl;
         cout << "Number of Frames in File: " << TestTekObject.GetNumberOfFrames() << endl;
-        cout << "Voltage Scale: " << TestTekObject.GetVoltageScale() << "\tOffset: " << TestTekObject.GetVoltageOffset() << std::endl;
-        cout << "Timebase information:" << std::endl << "Record Length: " << TestTekObject.GetRecordLength() << std::endl
-             << "Time Scale: " << TestTekObject.GetTimescale() << "\tTrigger Position: " << TestTekObject.GetTriggerPosition() << std::endl;
+        cout << "Voltage Scale: " << TestTekObject.GetVoltageScale() << "\tOffset: " << TestTekObject.GetVoltageOffset() << endl;
+        cout << "Timebase information:" << endl << "Record Length: " << TestTekObject.GetRecordLength() << endl
+             << "Time Scale: " << TestTekObject.GetTimescale() << "\tTrigger Position: " << TestTekObject.GetTriggerPosition() << endl;
     }
     return 0;
 }
