@@ -18,13 +18,17 @@ public:
     uint16_t GetNumberOfFrames();
 
     std::vector<std::vector<uint16_t>> Waveforms;
+    std::vector<std::vector<double>>Timestamps;
     double GetVoltageScale();
     double GetVoltageOffset();
     std::string GetVoltageUnits();
     double GetTimescale();
     double GetTriggerPosition();
     uint16_t GetRecordLength();
-
+    std::vector<uint16_t> RealPointOffsets;
+    std::vector<double> TriggerTimestampFraction;
+    std::vector<double> FractionalSecond;
+    std::vector<int32_t> GMTTimestamp;
 
 private:
     std::string _WFMVersion;
@@ -38,6 +42,18 @@ private:
     double _TimeScale;
     double _TriggerOffset;
     uint16_t _RecordLength;
+    enum _RecordType {
+        EXPLICIT_INT16 = 0,
+        EXPLICIT_INT32 = 1,
+        EXPLICIT_UINT32 = 2,
+        EXPLICIT_UINT64 = 3,
+        EXPLICIT_FP32 = 4,
+        EXPLICIT_FP64 = 5,
+        EXPLICIT_INVALID_FORMAT = 8,
+        EXPLICIT_UINT8 = 6,
+        EXPLICIT_INT8 = 7,
+        
+    };
 };
 
 #endif // TEKWFMOBJECT_H

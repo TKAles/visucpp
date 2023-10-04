@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 #include "../visu/tekwfmobject.h"
@@ -28,6 +29,13 @@ int main()
         cout << "Voltage Scale: " << TestTekObject.GetVoltageScale() << "\tOffset: " << TestTekObject.GetVoltageOffset() << endl;
         cout << "Timebase information:" << endl << "Record Length: " << TestTekObject.GetRecordLength() << endl
              << "Time Scale: " << TestTekObject.GetTimescale() << "\tTrigger Position: " << TestTekObject.GetTriggerPosition() << endl;
+        cout << "FASTFRAME DATA:" << endl << endl;
+        for(int i = 0 ; i < (int)TestTekObject.GMTTimestamp.size(); i++)
+        {
+            cout << TestTekObject.RealPointOffsets[i] << "\t" << TestTekObject.TriggerTimestampFraction[i] <<
+                "\t" << TestTekObject.FractionalSecond[i] << "\t" << TestTekObject.GMTTimestamp[i] << endl;
+        };
+        cout << "Number of records found: " << TestTekObject.RealPointOffsets.size() << endl;
     }
     return 0;
 }
