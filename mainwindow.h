@@ -15,6 +15,8 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    void InitializeUI();
+    void LoadWFMDirectory_Click();
     ~MainWindow();
 
 private:

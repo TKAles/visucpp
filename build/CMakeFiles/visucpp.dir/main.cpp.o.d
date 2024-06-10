@@ -1,10 +1,11 @@
-CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
- /home/tka/source/visucpp/visucpp/mainwindow.cpp \
- /usr/include/stdc-predef.h /home/tka/source/visucpp/visucpp/mainwindow.h \
- /usr/include/qt5/QtWidgets/QMainWindow \
- /usr/include/qt5/QtWidgets/qmainwindow.h \
- /usr/include/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt5/QtGui/qtguiglobal.h /usr/include/qt5/QtCore/qglobal.h \
+CMakeFiles/visucpp.dir/main.cpp.o: \
+ /home/tka/source/visucpp/visucpp/main.cpp /usr/include/stdc-predef.h \
+ /home/tka/source/visucpp/visucpp/mainwindow.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/tka/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
+ /home/tka/anaconda3/include/qt/QtGui/qtguiglobal.h \
+ /home/tka/anaconda3/include/qt/QtCore/qglobal.h \
  /usr/include/c++/14/type_traits \
  /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -20,12 +21,11 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
  /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/bits/move.h \
  /usr/include/c++/14/bits/utility.h /usr/include/c++/14/initializer_list \
- /usr/include/assert.h /usr/include/qt5/QtCore/qconfig.h \
- /usr/include/qt5/QtCore/qconfig-64.h \
- /usr/include/qt5/QtCore/qtcore-config.h \
- /usr/include/qt5/QtCore/qsystemdetection.h \
- /usr/include/qt5/QtCore/qprocessordetection.h \
- /usr/include/qt5/QtCore/qcompilerdetection.h \
+ /usr/include/assert.h /home/tka/anaconda3/include/qt/QtCore/qconfig.h \
+ /home/tka/anaconda3/include/qt/QtCore/qtcore-config.h \
+ /home/tka/anaconda3/include/qt/QtCore/qsystemdetection.h \
+ /home/tka/anaconda3/include/qt/QtCore/qprocessordetection.h \
+ /home/tka/anaconda3/include/qt/QtCore/qcompilerdetection.h \
  /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algobase.h \
  /usr/include/c++/14/bits/functexcept.h \
  /usr/include/c++/14/bits/exception_defines.h \
@@ -68,31 +68,36 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/bits/stdlib-float.h /usr/include/c++/14/bits/std_abs.h \
  /usr/include/c++/14/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14/pstl/execution_defs.h \
- /usr/include/qt5/QtCore/qtypeinfo.h /usr/include/qt5/QtCore/qsysinfo.h \
- /usr/include/qt5/QtCore/qlogging.h /usr/include/qt5/QtCore/qflags.h \
- /usr/include/qt5/QtCore/qatomic.h /usr/include/qt5/QtCore/qbasicatomic.h \
- /usr/include/qt5/QtCore/qatomic_cxx11.h \
- /usr/include/qt5/QtCore/qgenericatomic.h /usr/include/c++/14/atomic \
- /usr/include/c++/14/bits/atomic_base.h \
+ /home/tka/anaconda3/include/qt/QtCore/qtypeinfo.h \
+ /home/tka/anaconda3/include/qt/QtCore/qsysinfo.h \
+ /home/tka/anaconda3/include/qt/QtCore/qlogging.h \
+ /home/tka/anaconda3/include/qt/QtCore/qflags.h \
+ /home/tka/anaconda3/include/qt/QtCore/qatomic.h \
+ /home/tka/anaconda3/include/qt/QtCore/qbasicatomic.h \
+ /home/tka/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
+ /home/tka/anaconda3/include/qt/QtCore/qgenericatomic.h \
+ /usr/include/c++/14/atomic /usr/include/c++/14/bits/atomic_base.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
  /usr/include/c++/14/bits/atomic_lockfree_defines.h \
- /usr/include/qt5/QtCore/qglobalstatic.h \
- /usr/include/qt5/QtCore/qnumeric.h \
- /usr/include/qt5/QtCore/qversiontagging.h \
- /usr/include/qt5/QtGui/qtgui-config.h \
- /usr/include/qt5/QtWidgets/qtwidgets-config.h \
- /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/qt5/QtGui/qwindowdefs.h \
- /usr/include/qt5/QtCore/qobjectdefs.h \
- /usr/include/qt5/QtCore/qnamespace.h \
- /usr/include/qt5/QtCore/qobjectdefs_impl.h \
- /usr/include/qt5/QtCore/qobject.h /usr/include/qt5/QtCore/qstring.h \
- /usr/include/qt5/QtCore/qchar.h /usr/include/qt5/QtCore/qbytearray.h \
- /usr/include/qt5/QtCore/qrefcount.h /usr/include/qt5/QtCore/qarraydata.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/14/stdlib.h \
+ /home/tka/anaconda3/include/qt/QtCore/qglobalstatic.h \
+ /home/tka/anaconda3/include/qt/QtCore/qnumeric.h \
+ /home/tka/anaconda3/include/qt/QtCore/qversiontagging.h \
+ /home/tka/anaconda3/include/qt/QtGui/qtgui-config.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/tka/anaconda3/include/qt/QtGui/qwindowdefs.h \
+ /home/tka/anaconda3/include/qt/QtCore/qobjectdefs.h \
+ /home/tka/anaconda3/include/qt/QtCore/qnamespace.h \
+ /home/tka/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
+ /home/tka/anaconda3/include/qt/QtCore/qobject.h \
+ /home/tka/anaconda3/include/qt/QtCore/qstring.h \
+ /home/tka/anaconda3/include/qt/QtCore/qchar.h \
+ /home/tka/anaconda3/include/qt/QtCore/qbytearray.h \
+ /home/tka/anaconda3/include/qt/QtCore/qrefcount.h \
+ /home/tka/anaconda3/include/qt/QtCore/qarraydata.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/14/stdlib.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/c++/14/bits/stringfwd.h \
@@ -160,12 +165,14 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/bits/cxxabi_init_exception.h \
  /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/nested_exception.h \
  /usr/include/c++/14/bits/streambuf.tcc \
- /usr/include/qt5/QtCore/qstringliteral.h \
- /usr/include/qt5/QtCore/qstringalgorithms.h \
- /usr/include/qt5/QtCore/qstringview.h /usr/include/qt5/QtCore/qlist.h \
- /usr/include/qt5/QtCore/qalgorithms.h \
- /usr/include/qt5/QtCore/qiterator.h \
- /usr/include/qt5/QtCore/qhashfunctions.h /usr/include/qt5/QtCore/qpair.h \
+ /home/tka/anaconda3/include/qt/QtCore/qstringliteral.h \
+ /home/tka/anaconda3/include/qt/QtCore/qstringalgorithms.h \
+ /home/tka/anaconda3/include/qt/QtCore/qstringview.h \
+ /home/tka/anaconda3/include/qt/QtCore/qlist.h \
+ /home/tka/anaconda3/include/qt/QtCore/qalgorithms.h \
+ /home/tka/anaconda3/include/qt/QtCore/qiterator.h \
+ /home/tka/anaconda3/include/qt/QtCore/qhashfunctions.h \
+ /home/tka/anaconda3/include/qt/QtCore/qpair.h \
  /usr/include/c++/14/numeric /usr/include/c++/14/bits/stl_numeric.h \
  /usr/include/c++/14/pstl/glue_numeric_defs.h \
  /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
@@ -181,9 +188,10 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/array \
- /usr/include/c++/14/compare /usr/include/qt5/QtCore/qvector.h \
- /usr/include/qt5/QtCore/qcontainertools_impl.h /usr/include/c++/14/list \
- /usr/include/c++/14/bits/stl_list.h \
+ /usr/include/c++/14/compare \
+ /home/tka/anaconda3/include/qt/QtCore/qvector.h \
+ /home/tka/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+ /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/bits/list.tcc \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h \
@@ -191,13 +199,48 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/qt5/QtCore/qbytearraylist.h \
- /usr/include/qt5/QtCore/qstringlist.h /usr/include/qt5/QtCore/qregexp.h \
- /usr/include/qt5/QtCore/qstringmatcher.h \
- /usr/include/qt5/QtCore/qscopedpointer.h \
- /usr/include/qt5/QtCore/qmetatype.h \
- /usr/include/qt5/QtCore/qvarlengtharray.h \
- /usr/include/qt5/QtCore/qcontainerfwd.h /usr/include/c++/14/memory \
+ /usr/include/bits/uio_lim.h \
+ /home/tka/anaconda3/include/qt/QtCore/qbytearraylist.h \
+ /home/tka/anaconda3/include/qt/QtCore/qstringlist.h \
+ /home/tka/anaconda3/include/qt/QtCore/qregexp.h \
+ /home/tka/anaconda3/include/qt/QtCore/qstringmatcher.h \
+ /home/tka/anaconda3/include/qt/QtCore/qscopedpointer.h \
+ /home/tka/anaconda3/include/qt/QtCore/qmetatype.h \
+ /home/tka/anaconda3/include/qt/QtCore/qvarlengtharray.h \
+ /home/tka/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+ /usr/include/c++/14/map /usr/include/c++/14/bits/stl_tree.h \
+ /usr/include/c++/14/bits/stl_map.h \
+ /usr/include/c++/14/bits/stl_multimap.h \
+ /home/tka/anaconda3/include/qt/QtCore/qobject_impl.h \
+ /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
+ /usr/include/c++/14/ratio /usr/include/c++/14/cstdint \
+ /usr/include/c++/14/limits /usr/include/c++/14/ctime \
+ /usr/include/c++/14/bits/parse_numbers.h \
+ /home/tka/anaconda3/include/qt/QtCore/qmargins.h \
+ /home/tka/anaconda3/include/qt/QtGui/qpaintdevice.h \
+ /home/tka/anaconda3/include/qt/QtCore/qrect.h \
+ /home/tka/anaconda3/include/qt/QtCore/qsize.h \
+ /home/tka/anaconda3/include/qt/QtCore/qpoint.h \
+ /home/tka/anaconda3/include/qt/QtGui/qpalette.h \
+ /home/tka/anaconda3/include/qt/QtGui/qcolor.h \
+ /home/tka/anaconda3/include/qt/QtGui/qrgb.h \
+ /home/tka/anaconda3/include/qt/QtGui/qrgba64.h \
+ /home/tka/anaconda3/include/qt/QtGui/qbrush.h \
+ /home/tka/anaconda3/include/qt/QtGui/qmatrix.h \
+ /home/tka/anaconda3/include/qt/QtGui/qpolygon.h \
+ /home/tka/anaconda3/include/qt/QtGui/qregion.h \
+ /home/tka/anaconda3/include/qt/QtCore/qdatastream.h \
+ /home/tka/anaconda3/include/qt/QtCore/qiodevice.h \
+ /home/tka/anaconda3/include/qt/QtCore/qline.h \
+ /home/tka/anaconda3/include/qt/QtGui/qtransform.h \
+ /home/tka/anaconda3/include/qt/QtGui/qimage.h \
+ /home/tka/anaconda3/include/qt/QtGui/qpixelformat.h \
+ /home/tka/anaconda3/include/qt/QtGui/qpixmap.h \
+ /home/tka/anaconda3/include/qt/QtCore/qsharedpointer.h \
+ /home/tka/anaconda3/include/qt/QtCore/qshareddata.h \
+ /home/tka/anaconda3/include/qt/QtCore/qhash.h \
+ /home/tka/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+ /usr/include/c++/14/memory \
  /usr/include/c++/14/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14/bits/align.h /usr/include/c++/14/bits/unique_ptr.h \
  /usr/include/c++/14/bits/shared_ptr.h \
@@ -205,76 +248,22 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/ext/concurrence.h \
  /usr/include/c++/14/bits/shared_ptr_atomic.h \
  /usr/include/c++/14/backward/auto_ptr.h \
- /usr/include/c++/14/pstl/glue_memory_defs.h /usr/include/c++/14/map \
- /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_map.h \
- /usr/include/c++/14/bits/stl_multimap.h \
- /usr/include/qt5/QtCore/qobject_impl.h /usr/include/c++/14/chrono \
- /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
- /usr/include/c++/14/cstdint /usr/include/c++/14/limits \
- /usr/include/c++/14/ctime /usr/include/c++/14/bits/parse_numbers.h \
- /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtGui/qpaintdevice.h \
- /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qsize.h \
- /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtGui/qpalette.h \
- /usr/include/qt5/QtGui/qcolor.h /usr/include/qt5/QtGui/qrgb.h \
- /usr/include/qt5/QtGui/qrgba64.h /usr/include/qt5/QtGui/qbrush.h \
- /usr/include/qt5/QtGui/qmatrix.h /usr/include/qt5/QtGui/qpolygon.h \
- /usr/include/qt5/QtGui/qregion.h /usr/include/qt5/QtCore/qdatastream.h \
- /usr/include/qt5/QtCore/qiodevice.h /usr/include/qt5/QtCore/qline.h \
- /usr/include/qt5/QtGui/qtransform.h /usr/include/qt5/QtGui/qimage.h \
- /usr/include/qt5/QtGui/qpixelformat.h /usr/include/qt5/QtGui/qpixmap.h \
- /usr/include/qt5/QtCore/qsharedpointer.h \
- /usr/include/qt5/QtCore/qshareddata.h /usr/include/qt5/QtCore/qhash.h \
- /usr/include/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/qt5/QtGui/qfont.h /usr/include/qt5/QtGui/qfontmetrics.h \
- /usr/include/qt5/QtGui/qfontinfo.h \
- /usr/include/qt5/QtWidgets/qsizepolicy.h \
- /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h \
- /usr/include/qt5/QtWidgets/qtabwidget.h /usr/include/qt5/QtGui/qicon.h \
- /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
- /usr/include/qt5/QtCore/QVariant /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtCore/qmap.h /usr/include/c++/14/variant \
- /usr/include/qt5/QtWidgets/QApplication \
- /usr/include/qt5/QtWidgets/qapplication.h \
- /usr/include/qt5/QtCore/qcoreapplication.h \
- /usr/include/qt5/QtCore/qcoreevent.h \
- /usr/include/qt5/QtCore/qeventloop.h \
- /usr/include/qt5/QtGui/qguiapplication.h \
- /usr/include/qt5/QtGui/qinputmethod.h /usr/include/qt5/QtCore/qlocale.h \
- /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtWidgets/QHBoxLayout \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/qlayout.h \
- /usr/include/qt5/QtWidgets/qlayoutitem.h \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/qgridlayout.h \
- /usr/include/qt5/QtWidgets/QLabel /usr/include/qt5/QtWidgets/qlabel.h \
- /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtWidgets/QLineEdit \
- /usr/include/qt5/QtWidgets/qlineedit.h \
- /usr/include/qt5/QtGui/qtextcursor.h \
- /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtGui/qpen.h \
- /usr/include/qt5/QtGui/qtextoption.h \
- /usr/include/qt5/QtWidgets/QMainWindow \
- /usr/include/qt5/QtWidgets/QPushButton \
- /usr/include/qt5/QtWidgets/qpushbutton.h \
- /usr/include/qt5/QtWidgets/qabstractbutton.h \
- /usr/include/qt5/QtWidgets/QSpacerItem \
- /usr/include/qt5/QtWidgets/qlayoutitem.h \
- /usr/include/qt5/QtWidgets/QStatusBar \
- /usr/include/qt5/QtWidgets/qstatusbar.h \
- /usr/include/qt5/QtWidgets/QVBoxLayout \
- /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
- /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
- /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
- /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_base.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_inline.h \
- /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc \
- /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc \
- /usr/include/qt5/QtWidgets/QFileDialog \
- /usr/include/qt5/QtWidgets/qfiledialog.h /usr/include/qt5/QtCore/qdir.h \
- /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \
- /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtCore/qurl.h \
- /usr/include/qt5/QtWidgets/qdialog.h
+ /usr/include/c++/14/pstl/glue_memory_defs.h \
+ /home/tka/anaconda3/include/qt/QtGui/qfont.h \
+ /home/tka/anaconda3/include/qt/QtGui/qfontmetrics.h \
+ /home/tka/anaconda3/include/qt/QtGui/qfontinfo.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
+ /home/tka/anaconda3/include/qt/QtGui/qcursor.h \
+ /home/tka/anaconda3/include/qt/QtGui/qkeysequence.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/tka/anaconda3/include/qt/QtGui/qicon.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/QApplication \
+ /home/tka/anaconda3/include/qt/QtWidgets/qapplication.h \
+ /home/tka/anaconda3/include/qt/QtCore/qcoreapplication.h \
+ /home/tka/anaconda3/include/qt/QtCore/qcoreevent.h \
+ /home/tka/anaconda3/include/qt/QtCore/qeventloop.h \
+ /home/tka/anaconda3/include/qt/QtGui/qguiapplication.h \
+ /home/tka/anaconda3/include/qt/QtGui/qinputmethod.h \
+ /home/tka/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/tka/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/tka/anaconda3/include/qt/QtCore/qmap.h /usr/include/c++/14/variant
