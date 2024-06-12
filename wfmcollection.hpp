@@ -36,13 +36,40 @@ class WFMCollection
 
         // Break out the lists into vectors ordered by scan number
         int scanNo = 0;
-        for(const auto& entry : DCFileList)
+        std::vector<std::vector<std::string>> DCScanList;
+        std::vector<std::vector<std::string>> RFScanList;
+        std::vector<std::string> tempDCList;
+        std::vector<std::string> tempRFList;
+        bool scanIncremented = false;
+        for(int i = 0; i < DCFileList.size(); i++)
         {
             std::string scanString = std::format("{0:02}", scanNo);
             std::string scanPattern = "DC-" + scanString;
-            
+            if(DCFileList[i].find(scanPattern.c_str()) != std::string::npos)
+            {
+                tempDCList.push_back(DCFileList[i]);
+                tempRFList.push_back(RFFileList[i]);
+            } else {
+                if(tempDCList.size() != 0)
+                {
+                    DCScanList.push_back(tempDCList);
+                    RFScanList.push_back(tempRFList);
+                    tempDCList.clear();
+                    tempRFList.clear();
+                    scanNo++;
+                    scanIncremented = true;
+                }
+
+                if(scanIncremented)
+                {
+                    tempDCList.push_back(DCFileList[i]);
+                    tempRFList.push_back(RFFileList[i]);
+                    scanIncremented = false;
+                }
+            }
         }
-    
+        DCScanList.push_back(tempDCList);
+        RFScanList.push_back(tempRFList);
     }
 
     private:
