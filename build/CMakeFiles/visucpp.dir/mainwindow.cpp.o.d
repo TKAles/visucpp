@@ -295,4 +295,34 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /home/tka/anaconda3/include/qt/QtWidgets/qstatusbar.h \
  /home/tka/anaconda3/include/qt/QtWidgets/QVBoxLayout \
  /home/tka/anaconda3/include/qt/QtWidgets/QWidget \
- /home/tka/anaconda3/include/qt/QtWidgets/qwidget.h
+ /home/tka/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
+ /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
+ /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
+ /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/14/bits/locale_facets.tcc \
+ /usr/include/c++/14/bits/basic_ios.tcc \
+ /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
+ /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/filesystem \
+ /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/fs_path.h \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/time_members.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/sstream \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/codecvt \
+ /usr/include/c++/14/bits/fs_dir.h /usr/include/c++/14/bits/fs_ops.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/QFileDialog \
+ /home/tka/anaconda3/include/qt/QtWidgets/qfiledialog.h \
+ /home/tka/anaconda3/include/qt/QtCore/qdir.h \
+ /home/tka/anaconda3/include/qt/QtCore/qfileinfo.h \
+ /home/tka/anaconda3/include/qt/QtCore/qfile.h \
+ /home/tka/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/tka/anaconda3/include/qt/QtCore/qurl.h \
+ /home/tka/anaconda3/include/qt/QtWidgets/qdialog.h

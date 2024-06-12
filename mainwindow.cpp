@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "wfmcollection.hpp"
 #include <iostream>
 #include <QFileDialog>
 
@@ -50,5 +51,7 @@ void MainWindow::LoadWFMDirectory_Click()
     {
         std::cout << "Selected directory was: " <<
             wfmDirectoryDialog.selectedFiles()[0].toStdString() << std::endl;
+        WFMCollection wfmCollection;
+        wfmCollection.SearchForWFMs(wfmDirectoryDialog.selectedFiles()[0].toStdString());
     }
 }

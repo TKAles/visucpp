@@ -19,9 +19,12 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
  /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
  /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/bits/move.h \
- /usr/include/c++/14/bits/utility.h /usr/include/c++/14/initializer_list \
- /usr/include/assert.h /usr/include/qt5/QtCore/qconfig.h \
- /usr/include/qt5/QtCore/qconfig-64.h \
+ /usr/include/c++/14/bits/utility.h /usr/include/c++/14/compare \
+ /usr/include/c++/14/concepts /usr/include/c++/14/initializer_list \
+ /usr/include/c++/14/ext/numeric_traits.h \
+ /usr/include/c++/14/bits/cpp_type_traits.h \
+ /usr/include/c++/14/ext/type_traits.h /usr/include/assert.h \
+ /usr/include/qt5/QtCore/qconfig.h /usr/include/qt5/QtCore/qconfig-64.h \
  /usr/include/qt5/QtCore/qtcore-config.h \
  /usr/include/qt5/QtCore/qsystemdetection.h \
  /usr/include/qt5/QtCore/qprocessordetection.h \
@@ -29,23 +32,23 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algobase.h \
  /usr/include/c++/14/bits/functexcept.h \
  /usr/include/c++/14/bits/exception_defines.h \
- /usr/include/c++/14/bits/cpp_type_traits.h \
- /usr/include/c++/14/ext/type_traits.h \
- /usr/include/c++/14/ext/numeric_traits.h \
  /usr/include/c++/14/bits/stl_iterator_base_types.h \
+ /usr/include/c++/14/bits/iterator_concepts.h \
+ /usr/include/c++/14/bits/ptr_traits.h \
+ /usr/include/c++/14/bits/ranges_cmp.h \
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/14/bits/concept_check.h \
  /usr/include/c++/14/debug/assertions.h \
- /usr/include/c++/14/bits/stl_iterator.h \
- /usr/include/c++/14/bits/ptr_traits.h /usr/include/c++/14/debug/debug.h \
+ /usr/include/c++/14/bits/stl_iterator.h /usr/include/c++/14/new \
+ /usr/include/c++/14/bits/exception.h \
+ /usr/include/c++/14/bits/stl_construct.h \
+ /usr/include/c++/14/debug/debug.h \
  /usr/include/c++/14/bits/predefined_ops.h /usr/include/c++/14/bit \
- /usr/include/c++/14/concepts /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/stl_algo.h \
  /usr/include/c++/14/bits/algorithmfwd.h \
  /usr/include/c++/14/bits/stl_heap.h \
  /usr/include/c++/14/bits/uniform_int_dist.h \
- /usr/include/c++/14/bits/stl_tempbuf.h /usr/include/c++/14/new \
- /usr/include/c++/14/bits/exception.h \
- /usr/include/c++/14/bits/stl_construct.h /usr/include/c++/14/cstdlib \
+ /usr/include/c++/14/bits/stl_tempbuf.h /usr/include/c++/14/cstdlib \
  /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
@@ -66,6 +69,11 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/14/bits/std_abs.h \
+ /usr/include/c++/14/bits/ranges_algo.h \
+ /usr/include/c++/14/bits/ranges_algobase.h \
+ /usr/include/c++/14/bits/ranges_base.h \
+ /usr/include/c++/14/bits/max_size_type.h /usr/include/c++/14/numbers \
+ /usr/include/c++/14/bits/invoke.h /usr/include/c++/14/bits/ranges_util.h \
  /usr/include/c++/14/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14/pstl/execution_defs.h \
  /usr/include/qt5/QtCore/qtypeinfo.h /usr/include/qt5/QtCore/qsysinfo.h \
@@ -78,6 +86,35 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
  /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14/bits/atomic_wait.h /usr/include/c++/14/cstdint \
+ /usr/include/c++/14/bits/functional_hash.h \
+ /usr/include/c++/14/bits/hash_bytes.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/gthr.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h /usr/include/c++/14/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/14/climits \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
+ /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
+ /usr/include/c++/14/bits/std_mutex.h \
  /usr/include/qt5/QtCore/qglobalstatic.h \
  /usr/include/qt5/QtCore/qnumeric.h \
  /usr/include/qt5/QtCore/qversiontagging.h \
@@ -114,24 +151,18 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/bits/cxxabi_forced.h \
  /usr/include/c++/14/bits/stl_function.h \
  /usr/include/c++/14/backward/binders.h \
- /usr/include/c++/14/bits/refwrap.h /usr/include/c++/14/bits/invoke.h \
+ /usr/include/c++/14/bits/refwrap.h \
  /usr/include/c++/14/bits/range_access.h \
  /usr/include/c++/14/bits/basic_string.h \
  /usr/include/c++/14/ext/alloc_traits.h \
  /usr/include/c++/14/bits/alloc_traits.h /usr/include/c++/14/string_view \
- /usr/include/c++/14/bits/functional_hash.h \
- /usr/include/c++/14/bits/hash_bytes.h \
  /usr/include/c++/14/bits/string_view.tcc \
  /usr/include/c++/14/ext/string_conversions.h /usr/include/c++/14/cstdio \
  /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
  /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/14/cerrno \
- /usr/include/errno.h /usr/include/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/bits/types/error_t.h /usr/include/c++/14/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/14/bits/charconv.h \
  /usr/include/c++/14/bits/basic_string.tcc \
  /usr/include/c++/14/bits/memory_resource.h \
  /usr/include/c++/14/bits/uses_allocator.h \
@@ -140,15 +171,6 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/bits/streambuf_iterator.h \
  /usr/include/c++/14/streambuf /usr/include/c++/14/bits/ios_base.h \
  /usr/include/c++/14/ext/atomicity.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/gthr.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
- /usr/include/bits/types/struct___jmp_buf_tag.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
  /usr/include/c++/14/bits/locale_classes.h \
@@ -167,7 +189,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtCore/qiterator.h \
  /usr/include/qt5/QtCore/qhashfunctions.h /usr/include/qt5/QtCore/qpair.h \
  /usr/include/c++/14/numeric /usr/include/c++/14/bits/stl_numeric.h \
- /usr/include/c++/14/pstl/glue_numeric_defs.h \
+ /usr/include/c++/14/limits /usr/include/c++/14/pstl/glue_numeric_defs.h \
  /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
  /usr/include/c++/14/unordered_map \
  /usr/include/c++/14/bits/unordered_map.h \
@@ -181,17 +203,12 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/array \
- /usr/include/c++/14/compare /usr/include/qt5/QtCore/qvector.h \
+ /usr/include/qt5/QtCore/qvector.h \
  /usr/include/qt5/QtCore/qcontainertools_impl.h /usr/include/c++/14/list \
  /usr/include/c++/14/bits/stl_list.h \
  /usr/include/c++/14/bits/allocated_ptr.h \
  /usr/include/c++/14/bits/list.tcc \
- /usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h \
- /usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/qt5/QtCore/qbytearraylist.h \
+ /usr/include/qt5/QtCore/qbytearraylist.h \
  /usr/include/qt5/QtCore/qstringlist.h /usr/include/qt5/QtCore/qregexp.h \
  /usr/include/qt5/QtCore/qstringmatcher.h \
  /usr/include/qt5/QtCore/qscopedpointer.h \
@@ -200,18 +217,43 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtCore/qcontainerfwd.h /usr/include/c++/14/memory \
  /usr/include/c++/14/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14/bits/align.h /usr/include/c++/14/bits/unique_ptr.h \
+ /usr/include/c++/14/ostream /usr/include/c++/14/ios \
+ /usr/include/c++/14/bits/basic_ios.h \
+ /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
+ /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/14/bits/locale_facets.tcc \
+ /usr/include/c++/14/bits/basic_ios.tcc \
+ /usr/include/c++/14/bits/ostream.tcc \
  /usr/include/c++/14/bits/shared_ptr.h \
  /usr/include/c++/14/bits/shared_ptr_base.h \
  /usr/include/c++/14/ext/concurrence.h \
  /usr/include/c++/14/bits/shared_ptr_atomic.h \
  /usr/include/c++/14/backward/auto_ptr.h \
+ /usr/include/c++/14/bits/ranges_uninitialized.h \
  /usr/include/c++/14/pstl/glue_memory_defs.h /usr/include/c++/14/map \
  /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_map.h \
  /usr/include/c++/14/bits/stl_multimap.h \
  /usr/include/qt5/QtCore/qobject_impl.h /usr/include/c++/14/chrono \
  /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
- /usr/include/c++/14/cstdint /usr/include/c++/14/limits \
  /usr/include/c++/14/ctime /usr/include/c++/14/bits/parse_numbers.h \
+ /usr/include/c++/14/sstream /usr/include/c++/14/istream \
+ /usr/include/c++/14/bits/istream.tcc \
+ /usr/include/c++/14/bits/sstream.tcc \
+ /usr/include/c++/14/bits/chrono_io.h /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/time_members.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h \
+ /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/format \
+ /usr/include/c++/14/charconv /usr/include/c++/14/optional \
+ /usr/include/c++/14/span /usr/include/c++/14/variant \
+ /usr/include/c++/14/bits/unicode.h \
+ /usr/include/c++/14/bits/unicode-data.h \
  /usr/include/qt5/QtCore/qmargins.h /usr/include/qt5/QtGui/qpaintdevice.h \
  /usr/include/qt5/QtCore/qrect.h /usr/include/qt5/QtCore/qsize.h \
  /usr/include/qt5/QtCore/qpoint.h /usr/include/qt5/QtGui/qpalette.h \
@@ -232,8 +274,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtWidgets/qtabwidget.h /usr/include/qt5/QtGui/qicon.h \
  /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
  /usr/include/qt5/QtCore/QVariant /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtCore/qmap.h /usr/include/c++/14/variant \
- /usr/include/qt5/QtWidgets/QApplication \
+ /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtWidgets/QApplication \
  /usr/include/qt5/QtWidgets/qapplication.h \
  /usr/include/qt5/QtCore/qcoreapplication.h \
  /usr/include/qt5/QtCore/qcoreevent.h \
@@ -263,17 +304,11 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtWidgets/qstatusbar.h \
  /usr/include/qt5/QtWidgets/QVBoxLayout \
  /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
- /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
- /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
- /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
- /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_base.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_inline.h \
- /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc \
- /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc \
- /usr/include/qt5/QtWidgets/QFileDialog \
+ /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/filesystem \
+ /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/fs_path.h \
+ /usr/include/c++/14/codecvt /usr/include/c++/14/bits/fs_dir.h \
+ /usr/include/c++/14/bits/fs_ops.h /usr/include/qt5/QtWidgets/QFileDialog \
  /usr/include/qt5/QtWidgets/qfiledialog.h /usr/include/qt5/QtCore/qdir.h \
  /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \
  /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtCore/qurl.h \

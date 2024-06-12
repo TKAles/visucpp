@@ -66,9 +66,9 @@ include CMakeFiles/visucpp_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/visucpp_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/qt5/bin/uic
 CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/libQt5Widgets.so.5.15.14
 CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/qt5/bin/moc
+CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/qt5/bin/uic
 
 visucpp_autogen_timestamp_deps: CMakeFiles/visucpp_autogen_timestamp_deps
 visucpp_autogen_timestamp_deps: CMakeFiles/visucpp_autogen_timestamp_deps.dir/build.make

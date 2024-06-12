@@ -339,6 +339,7 @@
  mdp:/usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h
  mdp:/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
  mdp:/usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h
+/home/tka/source/visucpp/visucpp/wfmcollection.hpp
 /home/tka/source/visucpp/visucpp/main.cpp
 /home/tka/source/visucpp/visucpp/mainwindow.cpp
  uic:./ui_mainwindow.h
