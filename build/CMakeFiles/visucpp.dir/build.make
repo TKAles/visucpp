@@ -132,8 +132,19 @@ visucpp: CMakeFiles/visucpp.dir/main.cpp.o
 visucpp: CMakeFiles/visucpp.dir/mainwindow.cpp.o
 visucpp: CMakeFiles/visucpp.dir/build.make
 visucpp: /home/tka/anaconda3/lib/libQt5Widgets.so.5.15.2
+visucpp: /usr/local/lib64/libmatplot.a
 visucpp: /home/tka/anaconda3/lib/libQt5Gui.so.5.15.2
 visucpp: /home/tka/anaconda3/lib/libQt5Core.so.5.15.2
+visucpp: /usr/lib64/libfftw3.so
+visucpp: /usr/lib64/libfftw3f.so
+visucpp: /usr/lib64/libfftw3l.so
+visucpp: /usr/lib64/libfftw3_threads.so
+visucpp: /usr/lib64/libfftw3f_threads.so
+visucpp: /usr/lib64/libfftw3l_threads.so
+visucpp: /usr/lib64/libfftw3_omp.so
+visucpp: /usr/lib64/libfftw3f_omp.so
+visucpp: /usr/lib64/libfftw3l_omp.so
+visucpp: /usr/local/lib64/Matplot++/libnodesoup.a
 visucpp: CMakeFiles/visucpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tka/source/visucpp/visucpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable visucpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visucpp.dir/link.txt --verbose=$(VERBOSE)

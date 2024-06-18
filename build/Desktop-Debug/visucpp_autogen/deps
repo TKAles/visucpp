@@ -399,6 +399,10 @@ visucpp_autogen/timestamp: \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
 	/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
+	/usr/local/lib64/cmake/Matplot++/Matplot++Config.cmake \
+	/usr/local/lib64/cmake/Matplot++/Matplot++ConfigVersion.cmake \
+	/usr/local/lib64/cmake/Matplot++/Matplot++Targets-release.cmake \
+	/usr/local/lib64/cmake/Matplot++/Matplot++Targets.cmake \
 	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
 	/usr/share/cmake/Modules/CMakeGenericSystem.cmake \

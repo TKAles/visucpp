@@ -43,15 +43,20 @@ void MainWindow::InitializeUI()
 void MainWindow::LoadWFMDirectory_Click()
 {
     QFileDialog wfmDirectoryDialog(this);
+    this->statusBar()->showMessage("Waiting for directory selection...");
     wfmDirectoryDialog.setFileMode(QFileDialog::Directory);
     wfmDirectoryDialog.setOption(QFileDialog::ShowDirsOnly, true);
     wfmDirectoryDialog.setViewMode(QFileDialog::List);
 
     if (wfmDirectoryDialog.exec())
     {
-        std::cout << "Selected directory was: " <<
-            wfmDirectoryDialog.selectedFiles()[0].toStdString() << std::endl;
+        QString dirString = "Selected ";
+        dirString.append(wfmDirectoryDialog.selectedFiles()[0]);
+        this->statusBar()->showMessage(dirString);
         WFMCollection wfmCollection;
         wfmCollection.SearchForWFMs(wfmDirectoryDialog.selectedFiles()[0].toStdString());
+        QString foundFilesMsg = QString::fromStdString(std::format("Found {0} DC and RF files in {1} scans.",
+                                                                   wfmCollection.FilesInCollection, wfmCollection.ScansInCollection));
+        this->statusBar()->showMessage(foundFilesMsg);
     }
 }

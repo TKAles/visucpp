@@ -1422,6 +1422,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "Matplot++_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Matplot++."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local/lib64/cmake/Matplot++"
+		},
+		{
 			"name" : "QT_CREATOR_SKIP_PACKAGE_MANAGER_SETUP",
 			"properties" : 
 			[

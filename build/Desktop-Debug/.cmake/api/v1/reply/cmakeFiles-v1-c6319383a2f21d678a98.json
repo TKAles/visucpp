@@ -330,6 +330,22 @@
 			"path" : "/usr/share/cmake/Modules/CMakeParseArguments.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib64/cmake/Matplot++/Matplot++ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib64/cmake/Matplot++/Matplot++Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib64/cmake/Matplot++/Matplot++Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib64/cmake/Matplot++/Matplot++Targets-release.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/GNUInstallDirs.cmake"

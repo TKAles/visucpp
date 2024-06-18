@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tka/source/visucpp/visucpp/main.cpp" "CMakeFiles/visucpp.dir/main.cpp.o" "gcc" "CMakeFiles/visucpp.dir/main.cpp.o.d"
   "/home/tka/source/visucpp/visucpp/mainwindow.cpp" "CMakeFiles/visucpp.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/visucpp.dir/mainwindow.cpp.o.d"
   "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/mocs_compilation.cpp" "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o.d"
+  "/home/tka/source/visucpp/visucpp/wfmcpp.cpp" "CMakeFiles/visucpp.dir/wfmcpp.cpp.o" "gcc" "CMakeFiles/visucpp.dir/wfmcpp.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

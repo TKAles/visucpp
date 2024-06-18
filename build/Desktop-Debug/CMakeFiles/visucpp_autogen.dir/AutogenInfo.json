@@ -84,6 +84,10 @@
 		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/local/lib64/cmake/Matplot++/Matplot++ConfigVersion.cmake",
+		"/usr/local/lib64/cmake/Matplot++/Matplot++Config.cmake",
+		"/usr/local/lib64/cmake/Matplot++/Matplot++Targets.cmake",
+		"/usr/local/lib64/cmake/Matplot++/Matplot++Targets-release.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/tka/source/visucpp/visucpp",
@@ -102,12 +106,25 @@
 			"MU",
 			"EWIEGA46WW/moc_wfmcollection.cpp",
 			null
+		],
+		[
+			"/home/tka/source/visucpp/visucpp/wfmcpp.h",
+			"MU",
+			"GJ3Q65LSHB/moc_wfmcpp.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP",
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -122,11 +139,11 @@
 		"/usr/include/qt5/QtGui",
 		"/usr/include/qt5/QtCore",
 		"/usr/lib64/qt5/mkspecs/linux-g++",
+		"/usr/local/include",
 		"/usr/include/c++/14",
 		"/usr/include/c++/14/x86_64-redhat-linux",
 		"/usr/include/c++/14/backward",
 		"/usr/lib/gcc/x86_64-redhat-linux/14/include",
-		"/usr/local/include",
 		"/usr/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
@@ -155,7 +172,8 @@
 	"SOURCES" : 
 	[
 		[ "/home/tka/source/visucpp/visucpp/main.cpp", "MU", null ],
-		[ "/home/tka/source/visucpp/visucpp/mainwindow.cpp", "MU", null ]
+		[ "/home/tka/source/visucpp/visucpp/mainwindow.cpp", "MU", null ],
+		[ "/home/tka/source/visucpp/visucpp/wfmcpp.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

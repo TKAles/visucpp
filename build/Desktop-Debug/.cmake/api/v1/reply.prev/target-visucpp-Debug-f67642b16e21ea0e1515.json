@@ -15,13 +15,17 @@
 			"target_link_libraries",
 			"set_property",
 			"_populate_Widgets_target_properties",
-			"find_package"
+			"find_package",
+			"set_target_properties",
+			"include"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
 			"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-			"/usr/lib64/cmake/Qt5/Qt5Config.cmake"
+			"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
+			"/usr/local/lib64/cmake/Matplot++/Matplot++Targets.cmake",
+			"/usr/local/lib64/cmake/Matplot++/Matplot++Config.cmake"
 		],
 		"nodes" : 
 		[
@@ -31,19 +35,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 40,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 63,
+				"line" : 64,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 46,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -54,29 +64,61 @@
 			},
 			{
 				"file" : 2,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 5,
 				"file" : 2,
 				"line" : 28,
-				"parent" : 5
+				"parent" : 6
 			},
 			{
 				"file" : 1,
-				"parent" : 6
+				"parent" : 7
 			},
 			{
 				"command" : 4,
 				"file" : 1,
 				"line" : 213,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"command" : 3,
 				"file" : 1,
 				"line" : 57,
-				"parent" : 8
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 51,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 68,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 77,
+				"parent" : 14
 			}
 		]
 	},
@@ -86,7 +128,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++20 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 3,
@@ -95,6 +137,14 @@
 			],
 			"defines" : 
 			[
+				{
+					"backtrace" : 4,
+					"define" : "MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "NOMINMAX"
+				},
 				{
 					"backtrace" : 3,
 					"define" : "QT_CORE_LIB"
@@ -145,9 +195,10 @@
 			{
 				"backtraces" : 
 				[
-					3
+					3,
+					4
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -200,13 +251,68 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 9,
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib64/libmatplot.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
 				"fragment" : "/usr/lib64/libQt5Gui.so.5.15.14",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 9,
+				"backtrace" : 10,
 				"fragment" : "/usr/lib64/libQt5Core.so.5.15.14",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3f.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3l.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3_threads.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3f_threads.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3l_threads.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3_omp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3f_omp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/usr/lib64/libfftw3l_omp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/usr/local/lib64/Matplot++/libnodesoup.a",
 				"role" : "libraries"
 			}
 		],

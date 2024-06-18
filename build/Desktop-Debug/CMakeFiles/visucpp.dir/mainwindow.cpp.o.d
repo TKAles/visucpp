@@ -308,7 +308,73 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/iostream /usr/include/c++/14/filesystem \
  /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/fs_path.h \
  /usr/include/c++/14/codecvt /usr/include/c++/14/bits/fs_dir.h \
- /usr/include/c++/14/bits/fs_ops.h /usr/include/qt5/QtWidgets/QFileDialog \
+ /usr/include/c++/14/bits/fs_ops.h /usr/local/include/matplot/matplot.h \
+ /usr/local/include/matplot/util/common.h \
+ /usr/local/include/matplot/detail/config.h \
+ /usr/local/include/matplot/detail/exports.h /usr/include/c++/14/complex \
+ /usr/include/c++/14/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/14/bits/specfun.h \
+ /usr/include/c++/14/tr1/gamma.tcc \
+ /usr/include/c++/14/tr1/special_function_util.h \
+ /usr/include/c++/14/tr1/bessel_function.tcc \
+ /usr/include/c++/14/tr1/beta_function.tcc \
+ /usr/include/c++/14/tr1/ell_integral.tcc \
+ /usr/include/c++/14/tr1/exp_integral.tcc \
+ /usr/include/c++/14/tr1/hypergeometric.tcc \
+ /usr/include/c++/14/tr1/legendre_function.tcc \
+ /usr/include/c++/14/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/14/tr1/poly_hermite.tcc \
+ /usr/include/c++/14/tr1/poly_laguerre.tcc \
+ /usr/include/c++/14/tr1/riemann_zeta.tcc \
+ /usr/local/include/matplot/util/concepts.h \
+ /usr/local/include/matplot/util/handle_types.h \
+ /usr/local/include/matplot/util/type_traits.h \
+ /usr/local/include/matplot/util/geodata.h \
+ /usr/local/include/matplot/backend/backend_interface.h \
+ /usr/local/include/matplot/backend/backend_registry.h \
+ /usr/local/include/matplot/backend/gnuplot.h \
+ /usr/local/include/matplot/core/axes_type.h \
+ /usr/local/include/matplot/util/colors.h \
+ /usr/local/include/matplot/util/keywords.h \
+ /usr/local/include/matplot/core/axis_type.h \
+ /usr/local/include/matplot/core/legend.h \
+ /usr/local/include/matplot/core/line_spec.h \
+ /usr/local/include/matplot/axes_objects/error_bar.h \
+ /usr/local/include/matplot/axes_objects/line.h \
+ /usr/local/include/matplot/core/axes_object.h \
+ /usr/local/include/matplot/core/figure_type.h \
+ /usr/include/c++/14/fstream \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/14/bits/fstream.tcc \
+ /usr/local/include/matplot/util/popen.h \
+ /usr/local/include/matplot/axes_objects/function_line.h \
+ /usr/local/include/matplot/axes_objects/histogram.h \
+ /usr/local/include/matplot/axes_objects/bars.h \
+ /usr/local/include/matplot/axes_objects/box_chart.h \
+ /usr/local/include/matplot/axes_objects/circles.h \
+ /usr/local/include/matplot/axes_objects/contours.h \
+ /usr/local/include/matplot/util/contourc.h \
+ /usr/local/include/matplot/axes_objects/filled_area.h \
+ /usr/local/include/matplot/axes_objects/labels.h \
+ /usr/local/include/matplot/axes_objects/matrix.h \
+ /usr/local/include/matplot/axes_objects/network.h \
+ /usr/local/include/matplot/axes_objects/parallel_lines.h \
+ /usr/local/include/matplot/axes_objects/stair.h \
+ /usr/local/include/matplot/axes_objects/string_function.h \
+ /usr/local/include/matplot/axes_objects/surface.h \
+ /usr/local/include/matplot/axes_objects/vectors.h \
+ /usr/local/include/matplot/freestanding/axes_functions.h \
+ /usr/local/include/matplot/freestanding/axes_lim.h \
+ /usr/local/include/matplot/freestanding/histcounts.h \
+ /usr/local/include/matplot/freestanding/plot.h \
+ /usr/local/include/matplot/core/figure_registry.h \
+ /usr/include/qt5/QtWidgets/QFileDialog \
  /usr/include/qt5/QtWidgets/qfiledialog.h /usr/include/qt5/QtCore/qdir.h \
  /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \
  /usr/include/qt5/QtCore/qfiledevice.h /usr/include/qt5/QtCore/qurl.h \
