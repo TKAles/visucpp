@@ -18,7 +18,7 @@ class WFMCollection
         std::vector<std::vector<std::string>> RFScanList;
         void SearchForWFMs(std::string searchPath);
         void LoadWFMs();
-    
+        void ComputeDC();
 
     private:
     std::vector<std::string> DCFileList;

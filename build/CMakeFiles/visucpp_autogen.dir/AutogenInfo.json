@@ -97,6 +97,12 @@
 			"MU",
 			"EWIEGA46WW/moc_wfmcollection.cpp",
 			null
+		],
+		[
+			"/home/tka/source/visucpp/visucpp/wfmcpp.h",
+			"MU",
+			"GJ3Q65LSHB/moc_wfmcpp.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -157,7 +163,9 @@
 	"SOURCES" : 
 	[
 		[ "/home/tka/source/visucpp/visucpp/main.cpp", "MU", null ],
-		[ "/home/tka/source/visucpp/visucpp/mainwindow.cpp", "MU", null ]
+		[ "/home/tka/source/visucpp/visucpp/mainwindow.cpp", "MU", null ],
+		[ "/home/tka/source/visucpp/visucpp/wfmcollection.cpp", "MU", null ],
+		[ "/home/tka/source/visucpp/visucpp/wfmcpp.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

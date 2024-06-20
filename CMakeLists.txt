@@ -19,6 +19,7 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         wfmcollection.hpp
+        wfmcollection.cpp
         wfmcpp.h
         wfmcpp.cpp
 )

@@ -173,6 +173,7 @@
 	[
 		[ "/home/tka/source/visucpp/visucpp/main.cpp", "MU", null ],
 		[ "/home/tka/source/visucpp/visucpp/mainwindow.cpp", "MU", null ],
+		[ "/home/tka/source/visucpp/visucpp/wfmcollection.cpp", "MU", null ],
 		[ "/home/tka/source/visucpp/visucpp/wfmcpp.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

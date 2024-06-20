@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/visucpp.dir/mainwindow.cpp.o.d"
   "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/visucpp.dir/wfmcollection.cpp.o"
+  "CMakeFiles/visucpp.dir/wfmcollection.cpp.o.d"
   "CMakeFiles/visucpp.dir/wfmcpp.cpp.o"
   "CMakeFiles/visucpp.dir/wfmcpp.cpp.o.d"
   "visucpp"

@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent)
     // Signals
     ui->SelectScanButton->connect(ui->SelectScanButton, &QPushButton::clicked,
                                   this, &MainWindow::LoadWFMDirectory_Click);
+    ui->ProcessDCValues->connect(ui->ProcessDCValues, &QPushButton::clicked,
+                                  this, &MainWindow::ProcessDCValues_Click);
 }
 
 MainWindow::~MainWindow()
@@ -53,10 +55,16 @@ void MainWindow::LoadWFMDirectory_Click()
         QString dirString = "Selected ";
         dirString.append(wfmDirectoryDialog.selectedFiles()[0]);
         this->statusBar()->showMessage(dirString);
-        WFMCollection wfmCollection;
-        wfmCollection.SearchForWFMs(wfmDirectoryDialog.selectedFiles()[0].toStdString());
+        this->Waveforms.SearchForWFMs(wfmDirectoryDialog.selectedFiles()[0].toStdString());
         QString foundFilesMsg = QString::fromStdString(std::format("Found {0} DC and RF files in {1} scans.",
-                                                                   wfmCollection.FilesInCollection, wfmCollection.ScansInCollection));
+                                                                   this->Waveforms.FilesInCollection, this->Waveforms.ScansInCollection));
         this->statusBar()->showMessage(foundFilesMsg);
+        this->ui->ProcessDCValues->setEnabled(true);
     }
+}
+
+void MainWindow::ProcessDCValues_Click()
+{
+    this->Waveforms.LoadWFMs();
+    this->Waveforms.ComputeDC();
 }

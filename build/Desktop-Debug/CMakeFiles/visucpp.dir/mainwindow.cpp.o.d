@@ -272,38 +272,6 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/qt5/QtGui/qcursor.h /usr/include/qt5/QtGui/qkeysequence.h \
  /usr/include/qt5/QtWidgets/qtabwidget.h /usr/include/qt5/QtGui/qicon.h \
- /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
- /usr/include/qt5/QtCore/QVariant /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtWidgets/QApplication \
- /usr/include/qt5/QtWidgets/qapplication.h \
- /usr/include/qt5/QtCore/qcoreapplication.h \
- /usr/include/qt5/QtCore/qcoreevent.h \
- /usr/include/qt5/QtCore/qeventloop.h \
- /usr/include/qt5/QtGui/qguiapplication.h \
- /usr/include/qt5/QtGui/qinputmethod.h /usr/include/qt5/QtCore/qlocale.h \
- /usr/include/qt5/QtCore/qvariant.h \
- /usr/include/qt5/QtWidgets/QHBoxLayout \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/qlayout.h \
- /usr/include/qt5/QtWidgets/qlayoutitem.h \
- /usr/include/qt5/QtWidgets/qboxlayout.h \
- /usr/include/qt5/QtWidgets/qgridlayout.h \
- /usr/include/qt5/QtWidgets/QLabel /usr/include/qt5/QtWidgets/qlabel.h \
- /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtWidgets/QLineEdit \
- /usr/include/qt5/QtWidgets/qlineedit.h \
- /usr/include/qt5/QtGui/qtextcursor.h \
- /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtGui/qpen.h \
- /usr/include/qt5/QtGui/qtextoption.h \
- /usr/include/qt5/QtWidgets/QMainWindow \
- /usr/include/qt5/QtWidgets/QPushButton \
- /usr/include/qt5/QtWidgets/qpushbutton.h \
- /usr/include/qt5/QtWidgets/qabstractbutton.h \
- /usr/include/qt5/QtWidgets/QSpacerItem \
- /usr/include/qt5/QtWidgets/qlayoutitem.h \
- /usr/include/qt5/QtWidgets/QStatusBar \
- /usr/include/qt5/QtWidgets/qstatusbar.h \
- /usr/include/qt5/QtWidgets/QVBoxLayout \
- /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
  /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/filesystem \
  /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/fs_path.h \
@@ -374,6 +342,39 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/local/include/matplot/freestanding/histcounts.h \
  /usr/local/include/matplot/freestanding/plot.h \
  /usr/local/include/matplot/core/figure_registry.h \
+ /home/tka/source/visucpp/visucpp/wfmcpp.h /usr/include/c++/14/cstring \
+ /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
+ /usr/include/qt5/QtCore/QVariant /usr/include/qt5/QtCore/qvariant.h \
+ /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtWidgets/QApplication \
+ /usr/include/qt5/QtWidgets/qapplication.h \
+ /usr/include/qt5/QtCore/qcoreapplication.h \
+ /usr/include/qt5/QtCore/qcoreevent.h \
+ /usr/include/qt5/QtCore/qeventloop.h \
+ /usr/include/qt5/QtGui/qguiapplication.h \
+ /usr/include/qt5/QtGui/qinputmethod.h /usr/include/qt5/QtCore/qlocale.h \
+ /usr/include/qt5/QtCore/qvariant.h \
+ /usr/include/qt5/QtWidgets/QHBoxLayout \
+ /usr/include/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/qt5/QtWidgets/qlayout.h \
+ /usr/include/qt5/QtWidgets/qlayoutitem.h \
+ /usr/include/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/qt5/QtWidgets/qgridlayout.h \
+ /usr/include/qt5/QtWidgets/QLabel /usr/include/qt5/QtWidgets/qlabel.h \
+ /usr/include/qt5/QtWidgets/qframe.h /usr/include/qt5/QtWidgets/QLineEdit \
+ /usr/include/qt5/QtWidgets/qlineedit.h \
+ /usr/include/qt5/QtGui/qtextcursor.h \
+ /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtGui/qpen.h \
+ /usr/include/qt5/QtGui/qtextoption.h \
+ /usr/include/qt5/QtWidgets/QMainWindow \
+ /usr/include/qt5/QtWidgets/QPushButton \
+ /usr/include/qt5/QtWidgets/qpushbutton.h \
+ /usr/include/qt5/QtWidgets/qabstractbutton.h \
+ /usr/include/qt5/QtWidgets/QSpacerItem \
+ /usr/include/qt5/QtWidgets/qlayoutitem.h \
+ /usr/include/qt5/QtWidgets/QStatusBar \
+ /usr/include/qt5/QtWidgets/qstatusbar.h \
+ /usr/include/qt5/QtWidgets/QVBoxLayout \
+ /usr/include/qt5/QtWidgets/QWidget /usr/include/qt5/QtWidgets/qwidget.h \
  /usr/include/qt5/QtWidgets/QFileDialog \
  /usr/include/qt5/QtWidgets/qfiledialog.h /usr/include/qt5/QtCore/qdir.h \
  /usr/include/qt5/QtCore/qfileinfo.h /usr/include/qt5/QtCore/qfile.h \

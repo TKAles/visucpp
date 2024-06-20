@@ -23,8 +23,6 @@ void WFMCollection::SearchForWFMs(std::string searchPath)
 
         // Break out the lists into vectors ordered by scan number
         int scanNo = 0;
-        std::vector<std::vector<std::string>> DCScanList;
-        std::vector<std::vector<std::string>> RFScanList;
         std::vector<std::string> tempDCList;
         std::vector<std::string> tempRFList;
         bool scanIncremented = false;
@@ -35,13 +33,13 @@ void WFMCollection::SearchForWFMs(std::string searchPath)
             std::string scanPattern = "DC-" + scanString;
             if(DCFileList[i].find(scanPattern.c_str()) != std::string::npos)
             {
-                tempDCList.push_back(DCFileList[i]);
-                tempRFList.push_back(RFFileList[i]);
+                tempDCList.push_back(searchPath + "/" + DCFileList[i]);
+                tempRFList.push_back(searchPath + "/" + RFFileList[i]);
             } else {
                 if(tempDCList.size() != 0)
                 {
-                    DCScanList.push_back(tempDCList);
-                    RFScanList.push_back(tempRFList);
+                    this->DCScanList.push_back(tempDCList);
+                    this->RFScanList.push_back(tempRFList);
                     tempDCList.clear();
                     tempRFList.clear();
                     scanNo++;
@@ -50,8 +48,8 @@ void WFMCollection::SearchForWFMs(std::string searchPath)
 
                 if(scanIncremented)
                 {
-                    tempDCList.push_back(DCFileList[i]);
-                    tempRFList.push_back(RFFileList[i]);
+                    tempDCList.push_back(searchPath + "/" + DCFileList[i]);
+                    tempRFList.push_back(searchPath + "/" + RFFileList[i]);
                     scanIncremented = false;
                 }
             }
@@ -64,11 +62,12 @@ void WFMCollection::SearchForWFMs(std::string searchPath)
 
 void WFMCollection::LoadWFMs()
 {
+
     for(int scanNum = 0; scanNum < this->ScansInCollection; scanNum++)
     {
         std::vector<WFMFile> tmpDC;
         std::vector<WFMFile> tmpRF;
-        for(int fileNum = 0; fileNum < this->DCFileList[0].size(); fileNum++)
+        for(int fileNum = 0; fileNum < this->DCScanList[scanNum].size(); fileNum++)
         {
             WFMFile dc_wfmFile;
             WFMFile rf_wfmFile;
@@ -77,9 +76,20 @@ void WFMCollection::LoadWFMs()
             tmpDC.push_back(dc_wfmFile);
             tmpRF.push_back(rf_wfmFile);
         }
-        tmpDC.ComputeDCAverage();
         this->DCWFMs.push_back(tmpDC);
         this->RFWFMs.push_back(tmpRF);
+    }
+    return;
+}
+
+void WFMCollection::ComputeDC()
+{
+    for(auto &scan : this->DCWFMs)
+    {
+        for(auto &wfm : scan)
+        {
+            wfm.ComputeDCAverage();
+        }
     }
     return;
 }
