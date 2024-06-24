@@ -60,36 +60,21 @@ void WFMCollection::SearchForWFMs(std::string searchPath)
         return;
     }
 
-void WFMCollection::LoadWFMs()
-{
-
-    for(int scanNum = 0; scanNum < this->ScansInCollection; scanNum++)
-    {
-        std::vector<WFMFile> tmpDC;
-        std::vector<WFMFile> tmpRF;
-        for(int fileNum = 0; fileNum < this->DCScanList[scanNum].size(); fileNum++)
-        {
-            WFMFile dc_wfmFile;
-            WFMFile rf_wfmFile;
-            dc_wfmFile.ParseWFMFile(this->DCScanList[scanNum][fileNum]);
-            rf_wfmFile.ParseWFMFile(this->RFScanList[scanNum][fileNum]);
-            tmpDC.push_back(dc_wfmFile);
-            tmpRF.push_back(rf_wfmFile);
-        }
-        this->DCWFMs.push_back(tmpDC);
-        this->RFWFMs.push_back(tmpRF);
-    }
-    return;
-}
 
 void WFMCollection::ComputeDC()
 {
-    for(auto &scan : this->DCWFMs)
+    for(auto &currentScanSet : this->DCScanList)
     {
-        for(auto &wfm : scan)
+        std::vector<std::vector<double>> tmpDCValues;
+        tmpDCValues.reserve(currentScanSet.size());
+        for(auto &wfmFileString : currentScanSet)
         {
-            wfm.ComputeDCAverage();
+            WFMFile tmpData;
+            tmpData.ParseWFMFile(wfmFileString);
+            tmpData.ComputeDCAverage();
+            tmpDCValues.push_back(std::move(tmpData.DCAverages));
         }
+        this->DCValues.push_back(std::move(tmpDCValues));
     }
     return;
 }

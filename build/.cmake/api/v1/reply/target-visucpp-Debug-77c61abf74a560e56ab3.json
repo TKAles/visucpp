@@ -15,17 +15,13 @@
 			"target_link_libraries",
 			"set_property",
 			"_populate_Widgets_target_properties",
-			"find_package",
-			"set_target_properties",
-			"include"
+			"find_package"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-			"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
-			"/usr/local/lib64/cmake/Matplot++/Matplot++Targets.cmake",
-			"/usr/local/lib64/cmake/Matplot++/Matplot++Config.cmake"
+			"/home/tka/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+			"/home/tka/anaconda3/lib/cmake/Qt5/Qt5Config.cmake"
 		],
 		"nodes" : 
 		[
@@ -79,46 +75,14 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 213,
+				"line" : 202,
 				"parent" : 8
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 57,
+				"line" : 45,
 				"parent" : 9
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 14,
-				"parent" : 0
-			},
-			{
-				"file" : 4,
-				"parent" : 11
-			},
-			{
-				"command" : 7,
-				"file" : 4,
-				"line" : 51,
-				"parent" : 12
-			},
-			{
-				"file" : 3,
-				"parent" : 13
-			},
-			{
-				"command" : 6,
-				"file" : 3,
-				"line" : 68,
-				"parent" : 14
-			},
-			{
-				"command" : 6,
-				"file" : 3,
-				"line" : 77,
-				"parent" : 14
 			}
 		]
 	},
@@ -128,7 +92,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++20 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++20"
 				},
 				{
 					"backtrace" : 3,
@@ -137,14 +101,6 @@
 			],
 			"defines" : 
 			[
-				{
-					"backtrace" : 4,
-					"define" : "MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP"
-				},
-				{
-					"backtrace" : 4,
-					"define" : "NOMINMAX"
-				},
 				{
 					"backtrace" : 3,
 					"define" : "QT_CORE_LIB"
@@ -162,32 +118,32 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include"
+					"path" : "/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/qt5"
+					"path" : "/home/tka/anaconda3/include/qt"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/qt5/QtWidgets"
+					"path" : "/home/tka/anaconda3/include/qt/QtWidgets"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/qt5/QtGui"
+					"path" : "/home/tka/anaconda3/include/qt/QtGui"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/qt5/QtCore"
+					"path" : "/home/tka/anaconda3/include/qt/QtCore"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/lib64/qt5/mkspecs/linux-g++"
+					"path" : "/home/tka/anaconda3/./mkspecs/linux-g++"
 				}
 			],
 			"language" : "CXX",
@@ -195,8 +151,7 @@
 			{
 				"backtraces" : 
 				[
-					3,
-					4
+					3
 				],
 				"standard" : "20"
 			},
@@ -205,7 +160,8 @@
 				0,
 				1,
 				2,
-				7
+				6,
+				8
 			]
 		}
 	],
@@ -239,7 +195,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-DQT_QML_DEBUG -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -247,73 +203,27 @@
 				"role" : "flags"
 			},
 			{
+				"fragment" : "-Wl,-rpath,/home/tka/anaconda3/lib:",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 3,
-				"fragment" : "/usr/lib64/libQt5Widgets.so.5.15.14",
+				"fragment" : "/home/tka/anaconda3/lib/libQt5Widgets.so.5.15.2",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/usr/local/lib64/libmatplot.a",
+				"fragment" : "-lQcustomplot",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "/usr/lib64/libQt5Gui.so.5.15.14",
+				"fragment" : "/home/tka/anaconda3/lib/libQt5Gui.so.5.15.2",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "/usr/lib64/libQt5Core.so.5.15.14",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3f.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3l.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3_threads.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3f_threads.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3l_threads.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3_omp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3f_omp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/usr/lib64/libfftw3l_omp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 16,
-				"fragment" : "/usr/local/lib64/Matplot++/libnodesoup.a",
+				"fragment" : "/home/tka/anaconda3/lib/libQt5Core.so.5.15.2",
 				"role" : "libraries"
 			}
 		],
@@ -335,7 +245,8 @@
 				0,
 				1,
 				2,
-				7
+				6,
+				8
 			]
 		},
 		{
@@ -344,8 +255,8 @@
 			[
 				3,
 				5,
-				6,
-				8
+				7,
+				9
 			]
 		},
 		{
@@ -353,14 +264,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				9
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				11
 			]
 		}
 	],
@@ -370,7 +281,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop-Debug/visucpp_autogen/mocs_compilation.cpp",
+			"path" : "build/visucpp_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -402,6 +313,12 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "wfmcollection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "wfmcpp.h",
 			"sourceGroupIndex" : 1
 		},
@@ -414,19 +331,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop-Debug/visucpp_autogen/include/ui_mainwindow.h",
+			"path" : "build/visucpp_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop-Debug/visucpp_autogen/timestamp",
+			"path" : "build/visucpp_autogen/timestamp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop-Debug/visucpp_autogen/timestamp.rule",
+			"path" : "build/visucpp_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

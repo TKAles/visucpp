@@ -60,11 +60,11 @@ void MainWindow::LoadWFMDirectory_Click()
                                                                    this->Waveforms.FilesInCollection, this->Waveforms.ScansInCollection));
         this->statusBar()->showMessage(foundFilesMsg);
         this->ui->ProcessDCValues->setEnabled(true);
+
     }
 }
 
 void MainWindow::ProcessDCValues_Click()
 {
-    this->Waveforms.LoadWFMs();
     this->Waveforms.ComputeDC();
 }

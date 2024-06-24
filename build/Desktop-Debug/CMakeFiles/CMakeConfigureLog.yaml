@@ -254,3 +254,95 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/lib64/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:134 (include)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk"
+      binary: "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib64/cmake/Qt6;/usr/lib64/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib64/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cb348/fast
+        gmake[1]: Entering directory '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cb348.dir/build.make CMakeFiles/cmTC_cb348.dir/build
+        gmake[2]: Entering directory '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk'
+        Building CXX object CMakeFiles/cmTC_cb348.dir/src.cxx.o
+        /usr/bin/g++ -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++20 -o CMakeFiles/cmTC_cb348.dir/src.cxx.o -c /home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk/src.cxx
+        Linking CXX executable cmTC_cb348
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb348.dir/link.txt --verbose=1
+        /usr/bin/g++ -DQT_QML_DEBUG  CMakeFiles/cmTC_cb348.dir/src.cxx.o -o cmTC_cb348 
+        gmake[2]: Leaving directory '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk'
+        gmake[1]: Leaving directory '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-Ctqquk'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/lib64/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake:55 (include)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:53 (include)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:179 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-rDEGCZ"
+      binary: "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-rDEGCZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib64/cmake/Qt6;/usr/lib64/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib64/cmake/Qt6/3rdparty/kwin;/usr/lib64/cmake/Qt6;/usr/lib64/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib64/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-rDEGCZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e4502/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e4502.dir/build.make CMakeFiles/cmTC_e4502.dir/build
+        gmake[1]: Entering directory '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-rDEGCZ'
+        Building CXX object CMakeFiles/cmTC_e4502.dir/src.cxx.o
+        /usr/bin/g++ -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_e4502.dir/src.cxx.o -c /home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-rDEGCZ/src.cxx
+        Linking CXX executable cmTC_e4502
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4502.dir/link.txt --verbose=1
+        /usr/bin/g++ -DQT_QML_DEBUG  CMakeFiles/cmTC_e4502.dir/src.cxx.o -o cmTC_e4502 
+        gmake[1]: Leaving directory '/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/CMakeScratch/TryCompile-rDEGCZ'
+        
+      exitCode: 0
+...

@@ -16,15 +16,13 @@ class WFMCollection
         int ScansInCollection;
         std::vector<std::vector<std::string>> DCScanList;
         std::vector<std::vector<std::string>> RFScanList;
+        std::vector<std::vector<std::vector<double>>> DCValues;
         void SearchForWFMs(std::string searchPath);
-        void LoadWFMs();
         void ComputeDC();
 
     private:
     std::vector<std::string> DCFileList;
     std::vector<std::string> RFFileList;
-    std::vector<std::vector<WFMFile>> DCWFMs;
-    std::vector<std::vector<WFMFile>> RFWFMs;
 };
 
 #endif /* WFMCOLLECTION_H */
