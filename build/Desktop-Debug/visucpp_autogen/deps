@@ -283,6 +283,7 @@ visucpp_autogen/timestamp: \
 	/usr/include/c++/14/string \
 	/usr/include/c++/14/string_view \
 	/usr/include/c++/14/system_error \
+	/usr/include/c++/14/thread \
 	/usr/include/c++/14/tr1/bessel_function.tcc \
 	/usr/include/c++/14/tr1/beta_function.tcc \
 	/usr/include/c++/14/tr1/ell_integral.tcc \
@@ -332,6 +333,26 @@ visucpp_autogen/timestamp: \
 	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
 	/usr/include/pthread.h \
+	/usr/include/qt6/QtConcurrent/QtConcurrent \
+	/usr/include/qt6/QtConcurrent/QtConcurrentDepends \
+	/usr/include/qt6/QtConcurrent/qtaskbuilder.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrent_global.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentcompilertest.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentexports.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentfilter.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentfilterkernel.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentfunctionwrappers.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentiteratekernel.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentmap.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentmapkernel.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentmedian.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentreducekernel.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentrun.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentrunbase.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentstoredfunctioncall.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrenttask.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentthreadengine.h \
+	/usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
 	/usr/include/qt6/QtCore/QCache \
 	/usr/include/qt6/QtCore/QDateTime \
 	/usr/include/qt6/QtCore/QDeadlineTimer \
@@ -1045,6 +1066,14 @@ visucpp_autogen/timestamp: \
 	/usr/lib64/cmake/Qt6/QtPublicTestHelpers.cmake \
 	/usr/lib64/cmake/Qt6/QtPublicToolHelpers.cmake \
 	/usr/lib64/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentDependencies.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake \
+	/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessTargets.cmake \
 	/usr/lib64/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
 	/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake \
 	/usr/lib64/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \

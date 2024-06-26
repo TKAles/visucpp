@@ -63,18 +63,48 @@ void WFMCollection::SearchForWFMs(std::string searchPath)
 
 void WFMCollection::ComputeDC()
 {
-    for(auto &currentScanSet : this->DCScanList)
-    {
-        std::vector<std::vector<double>> tmpDCValues;
-        tmpDCValues.reserve(currentScanSet.size());
-        for(auto &wfmFileString : currentScanSet)
-        {
-            WFMFile tmpData;
-            tmpData.ParseWFMFile(wfmFileString);
-            tmpData.ComputeDCAverage();
-            tmpDCValues.push_back(std::move(tmpData.DCAverages));
-        }
-        this->DCValues.push_back(std::move(tmpDCValues));
-    }
     return;
 }
+
+void WFMCollection::ComputeDCAverage_mp(std::vector<std::vector<std::string>>& _fileset)
+{
+    const int n_threads = 8;
+    this->DCValues.clear();
+    for(auto &currentScan : _fileset)
+    {
+        std::vector<std::vector<double>> _dcOutput;
+        std::vector<std::thread> threadVec;
+        int scanrows = currentScan.size();
+        int chunksize = scanrows / n_threads;
+        int points_in_scanrow = -1;
+        // If this is the first file, parse it to figure out how many points there
+        // are in each 'row'
+        WFMFile tempWFM;
+        tempWFM.ParseWFMFile(currentScan[0]);
+        points_in_scanrow = tempWFM.GetPoints();
+        // We should now have enough information to initalize an empty vector to work on
+        _dcOutput.resize(scanrows, std::vector<double>(points_in_scanrow, 0.0));
+        for(int tNumber = 0; tNumber < n_threads; ++tNumber)
+        {
+            threadVec.emplace_back([tNumber, chunksize, n_threads, scanrows, &currentScan, &_dcOutput]()
+            {
+                int tStart = tNumber * chunksize;
+                int tEnd = (tNumber == n_threads - 1) ? scanrows : tStart + chunksize;
+                for(int idx = tStart; idx < tEnd; ++idx)
+                {
+                    WFMFile tmp_mp_wfm;
+                    tmp_mp_wfm.ParseWFMFile(currentScan[idx]);
+                    tmp_mp_wfm.ComputeDCAverage();
+                    _dcOutput[idx] = std::move(tmp_mp_wfm.DCAverages);
+                }
+            });
+        }
+        // Wait for the threads to finish and add the completed scan to the DCMaps object
+        for(std::thread& t : threadVec)
+        {
+            t.join();
+        }
+        this->DCValues.push_back(std::move(_dcOutput));
+    }
+}
+

@@ -7,10 +7,10 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-64cf82d32cced0db05b0.json",
+					"jsonFile" : "directory-.-Debug-d0ef1db427bb277eaef2.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5"
+						"string" : "3.16"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -44,21 +44,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "visucpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-visucpp-Debug-77c61abf74a560e56ab3.json",
+					"jsonFile" : "target-visucpp-Debug-0802747567a8fb4b9bfe.json",
 					"name" : "visucpp",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "visucpp_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-visucpp_autogen-Debug-ffc7e0ce361dd5551db9.json",
+					"jsonFile" : "target-visucpp_autogen-Debug-73e342954a0d6ea46c49.json",
 					"name" : "visucpp_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "visucpp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-visucpp_autogen_timestamp_deps-Debug-e92564e342dac8275f09.json",
+					"jsonFile" : "target-visucpp_autogen_timestamp_deps-Debug-5756017bc5742e598c49.json",
 					"name" : "visucpp_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
@@ -68,7 +68,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/tka/source/visucpp/visucpp/build",
+		"build" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug",
 		"source" : "/home/tka/source/visucpp/visucpp"
 	},
 	"version" : 

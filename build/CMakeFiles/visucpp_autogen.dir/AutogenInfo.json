@@ -75,6 +75,11 @@
 		"/home/tka/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/home/tka/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/home/tka/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake",
+		"/home/tka/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake",
+		"/home/tka/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake",
+		"/home/tka/anaconda3/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake",
+		"/home/tka/anaconda3/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/tka/source/visucpp/visucpp",
@@ -86,6 +91,12 @@
 			"/home/tka/source/visucpp/visucpp/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/tka/source/visucpp/visucpp/qcustomplot.h",
+			"MU",
+			"EWIEGA46WW/moc_qcustomplot.cpp",
 			null
 		],
 		[
@@ -104,7 +115,14 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/tka/source/visucpp/visucpp/build/visucpp_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -115,10 +133,12 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/tka/anaconda3/include/qt",
+		"/home/tka/anaconda3/include/qt/QtPrintSupport",
 		"/home/tka/anaconda3/include/qt/QtWidgets",
 		"/home/tka/anaconda3/include/qt/QtGui",
 		"/home/tka/anaconda3/include/qt/QtCore",
 		"/home/tka/anaconda3/mkspecs/linux-g++",
+		"/home/tka/anaconda3/include/qt/QtConcurrent",
 		"/usr/include",
 		"/usr/include/c++/14",
 		"/usr/include/c++/14/x86_64-redhat-linux",
@@ -153,6 +173,7 @@
 	[
 		[ "/home/tka/source/visucpp/visucpp/main.cpp", "MU", null ],
 		[ "/home/tka/source/visucpp/visucpp/mainwindow.cpp", "MU", null ],
+		[ "/home/tka/source/visucpp/visucpp/qcustomplot.cpp", "MU", null ],
 		[ "/home/tka/source/visucpp/visucpp/wfmcollection.cpp", "MU", null ],
 		[ "/home/tka/source/visucpp/visucpp/wfmcpp.cpp", "MU", null ]
 	],

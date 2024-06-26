@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "visucpp_autogen/timestamp" "custom" "visucpp_autogen/deps"
   "/home/tka/source/visucpp/visucpp/main.cpp" "CMakeFiles/visucpp.dir/main.cpp.o" "gcc" "CMakeFiles/visucpp.dir/main.cpp.o.d"
   "/home/tka/source/visucpp/visucpp/mainwindow.cpp" "CMakeFiles/visucpp.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/visucpp.dir/mainwindow.cpp.o.d"
+  "/home/tka/source/visucpp/visucpp/qcustomplot.cpp" "CMakeFiles/visucpp.dir/qcustomplot.cpp.o" "gcc" "CMakeFiles/visucpp.dir/qcustomplot.cpp.o.d"
   "/home/tka/source/visucpp/visucpp/build/visucpp_autogen/mocs_compilation.cpp" "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o.d"
   "/home/tka/source/visucpp/visucpp/wfmcollection.cpp" "CMakeFiles/visucpp.dir/wfmcollection.cpp.o" "gcc" "CMakeFiles/visucpp.dir/wfmcollection.cpp.o.d"
   "/home/tka/source/visucpp/visucpp/wfmcpp.cpp" "CMakeFiles/visucpp.dir/wfmcpp.cpp.o" "gcc" "CMakeFiles/visucpp.dir/wfmcpp.cpp.o.d"

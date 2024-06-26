@@ -1370,6 +1370,18 @@
 			"value" : "/home/tka/anaconda3/lib/cmake/Qt5"
 		},
 		{
+			"name" : "Qt5Concurrent_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Concurrent."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/tka/anaconda3/lib/cmake/Qt5Concurrent"
+		},
+		{
 			"name" : "Qt5Core_DIR",
 			"properties" : 
 			[
@@ -1392,6 +1404,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/home/tka/anaconda3/lib/cmake/Qt5Gui"
+		},
+		{
+			"name" : "Qt5PrintSupport_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5PrintSupport."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/tka/anaconda3/lib/cmake/Qt5PrintSupport"
 		},
 		{
 			"name" : "Qt5Widgets_DIR",

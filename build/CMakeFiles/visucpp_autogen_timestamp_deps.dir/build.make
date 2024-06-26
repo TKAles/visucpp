@@ -67,8 +67,10 @@ include CMakeFiles/visucpp_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/visucpp_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/visucpp_autogen_timestamp_deps: /home/tka/anaconda3/lib/libQt5Widgets.so.5.15.2
+CMakeFiles/visucpp_autogen_timestamp_deps: /home/tka/anaconda3/lib/libQt5PrintSupport.so.5.15.2
 CMakeFiles/visucpp_autogen_timestamp_deps: /home/tka/anaconda3/bin/moc
 CMakeFiles/visucpp_autogen_timestamp_deps: /home/tka/anaconda3/bin/uic
+CMakeFiles/visucpp_autogen_timestamp_deps: /home/tka/anaconda3/lib/libQt5Concurrent.so.5.15.2
 
 visucpp_autogen_timestamp_deps: CMakeFiles/visucpp_autogen_timestamp_deps
 visucpp_autogen_timestamp_deps: CMakeFiles/visucpp_autogen_timestamp_deps.dir/build.make

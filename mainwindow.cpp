@@ -3,7 +3,7 @@
 #include "wfmcollection.hpp"
 #include <iostream>
 #include <QFileDialog>
-
+#include <QtConcurrent>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -15,6 +15,8 @@ MainWindow::MainWindow(QWidget *parent)
                                   this, &MainWindow::LoadWFMDirectory_Click);
     ui->ProcessDCValues->connect(ui->ProcessDCValues, &QPushButton::clicked,
                                   this, &MainWindow::ProcessDCValues_Click);
+    connect(&DCVoidWatcher, &QFutureWatcher<void>::finished, this,
+            &MainWindow::PlotDCScanValue);
 }
 
 MainWindow::~MainWindow()
@@ -66,5 +68,40 @@ void MainWindow::LoadWFMDirectory_Click()
 
 void MainWindow::ProcessDCValues_Click()
 {
-    this->Waveforms.ComputeDC();
+    QFuture<void> dcProcessingFuture;
+    dcProcessingFuture = QtConcurrent::run([&]() {this->Waveforms.ComputeDCAverage_mp(this->Waveforms.DCScanList);});
+    DCVoidWatcher.setFuture(dcProcessingFuture);
+    return;
+}
+
+void MainWindow::UpdateUIDCStarted()
+{
+
+}
+
+
+void MainWindow::PlotDCScanValue()
+{
+    this->ui->ProcessDCValues->setEnabled(true);
+    this->ui->ProcessDCValues->setText("View DC Maps");
+    this->ui->statusbar->showMessage("Showing DC Scan #0");
+    QCPColorMap *currentDCMap = new QCPColorMap(this->ui->displayWidget->xAxis, this->ui->displayWidget->yAxis);
+    currentDCMap->data()->setSize(this->Waveforms.DCValues[0].size(), this->Waveforms.DCValues[0][0].size());
+    currentDCMap->data()->setRange(QCPRange(0, this->Waveforms.DCValues[0].size()),
+                                   QCPRange(0, this->Waveforms.DCValues[0][0].size()));
+    for(int scanRow = 0; scanRow < this->Waveforms.DCValues[0].size(); scanRow++)
+    {
+        for(int pixel = 0; pixel < this->Waveforms.DCValues[0][0].size(); pixel++)
+        {
+            currentDCMap->data()->setCell(scanRow, pixel, this->Waveforms.DCValues[0][scanRow][pixel]);
+        }
+    }
+    QCPColorScale *dcColorScaling = new QCPColorScale(this->ui->displayWidget);
+    this->ui->displayWidget->plotLayout()->addElement(0, 0.5, dcColorScaling);
+    currentDCMap->setColorScale(dcColorScaling);
+    currentDCMap->rescaleDataRange();
+    dcColorScaling->setType(QCPAxis::atRight);
+
+    this->ui->displayWidget->rescaleAxes();
+    this->ui->displayWidget->replot();
 }

@@ -370,6 +370,15 @@
 		"/usr/lib64/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets.cmake",
 		"/usr/lib64/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets-relwithdebinfo.cmake",
 		"/usr/lib64/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginAdditionalTargetInfo.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfigVersionImpl.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentDependencies.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake",
+		"/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentVersionlessTargets.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/tka/source/visucpp/visucpp",
@@ -405,7 +414,14 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_PRINTSUPPORT_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -421,6 +437,7 @@
 		"/usr/include/qt6/QtPrintSupport",
 		"/usr/include/qt6/QtGui",
 		"/usr/include/qt6/QtWidgets",
+		"/usr/include/qt6/QtConcurrent",
 		"/usr/include",
 		"/usr/include/c++/14",
 		"/usr/include/c++/14/x86_64-redhat-linux",

@@ -347,131 +347,8 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
  /usr/include/qt6/QtWidgets/qtabwidget.h \
- /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
- /usr/include/c++/14/iostream /usr/include/c++/14/filesystem \
- /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/fs_path.h \
- /usr/include/c++/14/codecvt /usr/include/c++/14/bits/fs_dir.h \
- /usr/include/c++/14/bits/fs_ops.h /usr/local/include/matplot/matplot.h \
- /usr/local/include/matplot/util/common.h \
- /usr/local/include/matplot/detail/config.h \
- /usr/local/include/matplot/detail/exports.h /usr/include/c++/14/complex \
- /usr/local/include/matplot/util/concepts.h \
- /usr/local/include/matplot/util/handle_types.h \
- /usr/local/include/matplot/util/type_traits.h \
- /usr/local/include/matplot/util/geodata.h \
- /usr/local/include/matplot/backend/backend_interface.h \
- /usr/local/include/matplot/backend/backend_registry.h \
- /usr/local/include/matplot/backend/gnuplot.h \
- /usr/local/include/matplot/core/axes_type.h \
- /usr/local/include/matplot/util/colors.h \
- /usr/local/include/matplot/util/keywords.h \
- /usr/local/include/matplot/core/axis_type.h \
- /usr/local/include/matplot/core/legend.h \
- /usr/local/include/matplot/core/line_spec.h \
- /usr/local/include/matplot/axes_objects/error_bar.h \
- /usr/local/include/matplot/axes_objects/line.h \
- /usr/local/include/matplot/core/axes_object.h \
- /usr/local/include/matplot/core/figure_type.h \
- /usr/include/c++/14/fstream \
- /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc \
- /usr/local/include/matplot/util/popen.h \
- /usr/local/include/matplot/axes_objects/function_line.h \
- /usr/local/include/matplot/axes_objects/histogram.h \
- /usr/local/include/matplot/axes_objects/bars.h \
- /usr/local/include/matplot/axes_objects/box_chart.h \
- /usr/local/include/matplot/axes_objects/circles.h \
- /usr/local/include/matplot/axes_objects/contours.h \
- /usr/local/include/matplot/util/contourc.h \
- /usr/local/include/matplot/axes_objects/filled_area.h \
- /usr/local/include/matplot/axes_objects/labels.h \
- /usr/local/include/matplot/axes_objects/matrix.h \
- /usr/local/include/matplot/axes_objects/network.h \
- /usr/local/include/matplot/axes_objects/parallel_lines.h \
- /usr/local/include/matplot/axes_objects/stair.h \
- /usr/local/include/matplot/axes_objects/string_function.h \
- /usr/local/include/matplot/axes_objects/surface.h \
- /usr/local/include/matplot/axes_objects/vectors.h \
- /usr/local/include/matplot/freestanding/axes_functions.h \
- /usr/local/include/matplot/freestanding/axes_lim.h \
- /usr/local/include/matplot/freestanding/histcounts.h \
- /usr/local/include/matplot/freestanding/plot.h \
- /usr/local/include/matplot/core/figure_registry.h \
- /home/tka/source/visucpp/visucpp/wfmcpp.h \
- /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
- /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
- /usr/include/qt6/QtWidgets/QApplication \
- /usr/include/qt6/QtWidgets/qapplication.h \
- /usr/include/qt6/QtCore/qcoreapplication.h \
- /usr/include/qt6/QtCore/qcoreevent.h \
- /usr/include/qt6/QtCore/qdeadlinetimer.h \
- /usr/include/qt6/QtCore/qelapsedtimer.h \
- /usr/include/qt6/QtCore/qeventloop.h \
- /usr/include/qt6/QtCore/qnativeinterface.h \
- /usr/include/qt6/QtCore/qcoreapplication_platform.h \
- /usr/include/qt6/QtGui/qguiapplication.h \
- /usr/include/qt6/QtGui/qinputmethod.h /usr/include/qt6/QtCore/qlocale.h \
- /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/qt6/QtWidgets/QHBoxLayout \
- /usr/include/qt6/QtWidgets/qboxlayout.h \
- /usr/include/qt6/QtWidgets/qlayout.h \
- /usr/include/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/qt6/QtWidgets/qboxlayout.h \
- /usr/include/qt6/QtWidgets/qgridlayout.h \
- /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
- /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
- /usr/include/qt6/QtCore/qiodevice.h \
- /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
- /usr/include/qt6/QtWidgets/QLineEdit \
- /usr/include/qt6/QtWidgets/qlineedit.h \
- /usr/include/qt6/QtGui/qtextcursor.h \
- /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
- /usr/include/qt6/QtGui/qtextoption.h \
- /usr/include/qt6/QtWidgets/QMainWindow \
- /usr/include/qt6/QtWidgets/QPushButton \
- /usr/include/qt6/QtWidgets/qpushbutton.h \
- /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/qt6/QtWidgets/QSpacerItem \
- /usr/include/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/qt6/QtWidgets/QStatusBar \
- /usr/include/qt6/QtWidgets/qstatusbar.h \
- /usr/include/qt6/QtWidgets/QVBoxLayout \
- /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
- /usr/include/qcustomplot.h /usr/include/qt6/QtCore/QObject \
- /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/QPointer \
- /usr/include/qt6/QtCore/qpointer.h \
- /usr/include/qt6/QtCore/QSharedPointer \
- /usr/include/qt6/QtCore/qsharedpointer.h /usr/include/qt6/QtCore/QTimer \
- /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtCore/qbasictimer.h \
- /usr/include/qt6/QtGui/QPainter /usr/include/qt6/QtGui/qpainter.h \
- /usr/include/qt6/QtGui/QPainterPath \
- /usr/include/qt6/QtGui/qpainterpath.h /usr/include/qt6/QtGui/QPaintEvent \
- /usr/include/qt6/QtGui/qevent.h /usr/include/qt6/QtGui/qeventpoint.h \
- /usr/include/qt6/QtGui/qvector2d.h /usr/include/qt6/QtGui/qvectornd.h \
- /usr/include/qt6/QtGui/qpointingdevice.h \
- /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
- /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
- /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/qrect.h \
- /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
- /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
- /usr/include/qt6/QtGui/qtransform.h \
- /usr/include/qt6/QtGui/qscreen_platform.h \
- /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/QWheelEvent \
- /usr/include/qt6/QtGui/QPixmap /usr/include/qt6/QtGui/qpixmap.h \
- /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h \
- /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /usr/include/qt6/QtCore/QDateTime /usr/include/qt6/QtCore/qdatetime.h \
- /usr/include/qt6/QtCore/qcalendar.h /usr/include/qt6/QtCore/QMultiMap \
- /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtCore/QFlags \
- /usr/include/qt6/QtCore/qflags.h /usr/include/qt6/QtCore/QDebug \
- /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/QStack \
- /usr/include/qt6/QtCore/qstack.h /usr/include/qt6/QtCore/QCache \
- /usr/include/qt6/QtCore/qcache.h /usr/include/qt6/QtCore/QMargins \
- /usr/include/qt6/QtCore/qmargins.h /usr/include/qt6/QtCore/qmath.h \
- /usr/include/qt6/QtCore/QtNumeric /usr/include/qt6/QtCore/qnumeric.h \
- /usr/include/qt6/QtPrintSupport/QtPrintSupport \
- /usr/include/qt6/QtPrintSupport/QtPrintSupportDepends \
+ /usr/include/qt6/QtConcurrent/QtConcurrent \
+ /usr/include/qt6/QtConcurrent/QtConcurrentDepends \
  /usr/include/qt6/QtCore/QtCore /usr/include/qt6/QtCore/QtCoreDepends \
  /usr/include/qt6/QtCore/qglobal.h /usr/include/qt6/QtCore/q20algorithm.h \
  /usr/include/qt6/QtCore/q20chrono.h \
@@ -483,6 +360,9 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/q23utility.h \
  /usr/include/qt6/QtCore/qabstractanimation.h \
  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h \
+ /usr/include/qt6/QtCore/qelapsedtimer.h \
  /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qabstractnativeeventfilter.h \
  /usr/include/qt6/QtCore/qabstractproxymodel.h \
@@ -494,6 +374,10 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qapplicationstatic.h \
  /usr/include/qt6/QtCore/QMutex /usr/include/qt6/QtCore/qmutex.h \
  /usr/include/qt6/QtCore/qtsan_impl.h \
+ /usr/include/qt6/QtCore/qcoreapplication.h \
+ /usr/include/qt6/QtCore/qcoreevent.h \
+ /usr/include/qt6/QtCore/qnativeinterface.h \
+ /usr/include/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/qt6/QtCore/qarraydata.h \
  /usr/include/qt6/QtCore/qarraydataops.h \
  /usr/include/qt6/QtCore/qarraydatapointer.h \
@@ -504,18 +388,21 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qbasictimer.h \
  /usr/include/qt6/QtCore/qbindingstorage.h \
  /usr/include/qt6/QtCore/qbitarray.h /usr/include/qt6/QtCore/qbuffer.h \
- /usr/include/qt6/QtCore/qbytearray.h \
+ /usr/include/qt6/QtCore/qiodevice.h /usr/include/qt6/QtCore/qbytearray.h \
  /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
  /usr/include/qt6/QtCore/qbytearraylist.h \
  /usr/include/qt6/QtCore/qbytearraymatcher.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
  /usr/include/qt6/QtCore/qbytearrayview.h \
- /usr/include/qt6/QtCore/qcalendar.h /usr/include/qt6/QtCore/qcborarray.h \
+ /usr/include/qt6/QtCore/qcache.h /usr/include/qt6/QtCore/qcalendar.h \
+ /usr/include/qt6/QtCore/qlocale.h /usr/include/qt6/QtCore/qcborarray.h \
  /usr/include/qt6/QtCore/qcborvalue.h /usr/include/qt6/QtCore/qdatetime.h \
+ /usr/include/qt6/QtCore/qcalendar.h \
  /usr/include/qt6/QtCore/qcborcommon.h \
  /usr/include/qt6/QtCore/qregularexpression.h \
- /usr/include/qt6/QtCore/quuid.h /usr/include/qt6/QtCore/qcborcommon.h \
- /usr/include/qt6/QtCore/qcbormap.h /usr/include/qt6/QtCore/qcborstream.h \
+ /usr/include/qt6/QtCore/qurl.h /usr/include/qt6/QtCore/quuid.h \
+ /usr/include/qt6/QtCore/qcborcommon.h /usr/include/qt6/QtCore/qcbormap.h \
+ /usr/include/qt6/QtCore/qcborstream.h \
  /usr/include/qt6/QtCore/qcborstreamreader.h \
  /usr/include/qt6/QtCore/qcborstreamwriter.h \
  /usr/include/qt6/QtCore/qcborstreamreader.h \
@@ -537,8 +424,13 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qcryptographichash.h \
  /usr/include/qt6/QtCore/qdarwinhelpers.h \
  /usr/include/qt6/QtCore/qdatastream.h \
- /usr/include/qt6/QtCore/qdeadlinetimer.h /usr/include/qt6/QtCore/qdir.h \
+ /usr/include/qt6/QtCore/qdatetime.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h \
+ /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/qdir.h \
  /usr/include/qt6/QtCore/qfile.h /usr/include/qt6/QtCore/qfiledevice.h \
+ /usr/include/c++/14/filesystem /usr/include/c++/14/bits/fs_fwd.h \
+ /usr/include/c++/14/bits/fs_path.h /usr/include/c++/14/codecvt \
+ /usr/include/c++/14/bits/fs_dir.h /usr/include/c++/14/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
  /usr/include/qt6/QtCore/qdiriterator.h /usr/include/qt6/QtCore/qdir.h \
  /usr/include/qt6/QtCore/qeasingcurve.h \
@@ -549,11 +441,11 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qfactoryinterface.h \
  /usr/include/qt6/QtCore/qfile.h /usr/include/qt6/QtCore/qfiledevice.h \
  /usr/include/qt6/QtCore/qfileinfo.h \
- /usr/include/qt6/QtCore/qfileselector.h \
- /usr/include/qt6/QtCore/QStringList \
+ /usr/include/qt6/QtCore/qfileselector.h /usr/include/qt6/QtCore/QObject \
+ /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/QStringList \
  /usr/include/qt6/QtCore/qstringlist.h \
  /usr/include/qt6/QtCore/qfilesystemwatcher.h \
- /usr/include/qt6/QtCore/qforeach.h \
+ /usr/include/qt6/QtCore/qflags.h /usr/include/qt6/QtCore/qforeach.h \
  /usr/include/qt6/QtCore/qfunctionpointer.h \
  /usr/include/qt6/QtCore/qfuture.h \
  /usr/include/qt6/QtCore/qfutureinterface.h \
@@ -595,9 +487,11 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qlibraryinfo.h \
  /usr/include/qt6/QtCore/qversionnumber.h \
  /usr/include/qt6/QtCore/qtyperevision.h /usr/include/qt6/QtCore/qline.h \
- /usr/include/qt6/QtCore/qlocale.h /usr/include/qt6/QtCore/qlockfile.h \
+ /usr/include/qt6/QtCore/qlist.h /usr/include/qt6/QtCore/qlocale.h \
+ /usr/include/qt6/QtCore/qlockfile.h \
  /usr/include/qt6/QtCore/qloggingcategory.h \
- /usr/include/qt6/QtCore/qmalloc.h /usr/include/qt6/QtCore/qmath.h \
+ /usr/include/qt6/QtCore/qmalloc.h /usr/include/qt6/QtCore/qmap.h \
+ /usr/include/qt6/QtCore/qmargins.h /usr/include/qt6/QtCore/qmath.h \
  /usr/include/qt6/QtCore/qmessageauthenticationcode.h \
  /usr/include/qt6/QtCore/qcryptographichash.h \
  /usr/include/qt6/QtCore/qmetacontainer.h \
@@ -607,6 +501,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qmimetype.h /usr/include/qt6/QtCore/qmimetype.h \
  /usr/include/qt6/QtCore/qminmax.h /usr/include/qt6/QtCore/qnamespace.h \
  /usr/include/qt6/QtCore/qnativeinterface.h \
+ /usr/include/qt6/QtCore/qnumeric.h \
  /usr/include/qt6/QtCore/qobjectcleanuphandler.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qoperatingsystemversion.h \
@@ -618,7 +513,8 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qpointer.h /usr/include/qt6/QtCore/qjsonobject.h \
  /usr/include/qt6/QtCore/qpluginloader.h \
  /usr/include/qt6/QtCore/qlibrary.h /usr/include/qt6/QtCore/qplugin.h \
- /usr/include/qt6/QtCore/qpoint.h /usr/include/qt6/QtCore/qprocess.h \
+ /usr/include/qt6/QtCore/qpoint.h /usr/include/qt6/QtCore/qpointer.h \
+ /usr/include/qt6/QtCore/qprocess.h \
  /usr/include/qt6/QtCore/qprocessordetection.h \
  /usr/include/qt6/QtCore/qpromise.h /usr/include/qt6/QtCore/qproperty.h \
  /usr/include/qt6/QtCore/qpropertyprivate.h \
@@ -632,7 +528,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/c++/14/random /usr/include/c++/14/bits/random.h \
  /usr/include/c++/14/x86_64-redhat-linux/bits/opt_random.h \
  /usr/include/c++/14/bits/random.tcc \
- /usr/include/qt6/QtCore/qreadwritelock.h \
+ /usr/include/qt6/QtCore/qreadwritelock.h /usr/include/qt6/QtCore/qrect.h \
  /usr/include/qt6/QtCore/qrefcount.h \
  /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtCore/qresource.h \
@@ -648,6 +544,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qshareddata.h \
  /usr/include/qt6/QtCore/qsharedmemory.h \
  /usr/include/qt6/QtCore/qtipccommon.h \
+ /usr/include/qt6/QtCore/qsharedpointer.h \
  /usr/include/qt6/QtCore/qsignalmapper.h /usr/include/qt6/QtCore/qsimd.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/immintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/x86gprintrin.h \
@@ -749,14 +646,15 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/keylockerintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/amxfp16intrin.h \
+ /usr/include/qt6/QtCore/qsize.h \
  /usr/include/qt6/QtCore/qsocketnotifier.h \
  /usr/include/qt6/QtCore/qsortfilterproxymodel.h \
  /usr/include/qt6/QtCore/qspan.h /usr/include/c++/14/cassert \
- /usr/include/qt6/QtCore/q20iterator.h \
+ /usr/include/qt6/QtCore/q20iterator.h /usr/include/qt6/QtCore/qstack.h \
  /usr/include/qt6/QtCore/qstandardpaths.h \
  /usr/include/qt6/QtCore/qstaticlatin1stringmatcher.h \
  /usr/include/qt6/QtCore/qlatin1stringmatcher.h \
- /usr/include/qt6/QtCore/qstorageinfo.h \
+ /usr/include/qt6/QtCore/qstorageinfo.h /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/qstringalgorithms.h \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
@@ -782,7 +680,9 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qtextstream.h /usr/include/qt6/QtCore/qthread.h \
  /usr/include/qt6/QtCore/qthreadpool.h \
  /usr/include/qt6/QtCore/qthreadstorage.h \
- /usr/include/qt6/QtCore/qtimeline.h /usr/include/qt6/QtCore/qtimezone.h \
+ /usr/include/qt6/QtCore/qtimeline.h /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/qt6/QtCore/qbasictimer.h \
+ /usr/include/qt6/QtCore/qtimezone.h \
  /usr/include/qt6/QtCore/qtipccommon.h \
  /usr/include/qt6/QtCore/qtmetamacros.h /usr/include/qt6/QtCore/qtnoop.h \
  /usr/include/qt6/QtCore/qtpreprocessorsupport.h \
@@ -798,12 +698,14 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qtyperevision.h /usr/include/qt6/QtCore/qtypes.h \
  /usr/include/qt6/QtCore/qurl.h /usr/include/qt6/QtCore/qurlquery.h \
  /usr/include/qt6/QtCore/qutf8stringview.h \
- /usr/include/qt6/QtCore/quuid.h \
+ /usr/include/qt6/QtCore/quuid.h /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtCore/qvariantanimation.h \
  /usr/include/qt6/QtCore/qvarianthash.h /usr/include/qt6/QtCore/QHash \
- /usr/include/qt6/QtCore/qvariantlist.h \
+ /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/QString \
+ /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QList \
  /usr/include/qt6/QtCore/qvariantmap.h /usr/include/qt6/QtCore/QMap \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
+ /usr/include/qt6/QtCore/qvector.h \
  /usr/include/qt6/QtCore/qversionnumber.h \
  /usr/include/qt6/QtCore/qversiontagging.h \
  /usr/include/qt6/QtCore/qwaitcondition.h \
@@ -812,8 +714,142 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/qxmlstream.h \
  /usr/include/qt6/QtCore/qxpfunctional.h \
  /usr/include/qt6/QtCore/q23functional.h \
- /usr/include/qt6/QtCore/qyieldcpu.h /usr/include/qt6/QtGui/QtGui \
- /usr/include/qt6/QtGui/QtGuiDepends /usr/include/qt6/QtGui/qtguiglobal.h \
+ /usr/include/qt6/QtCore/qyieldcpu.h \
+ /usr/include/qt6/QtConcurrent/qtaskbuilder.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentstoredfunctioncall.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrent_global.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentexports.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentrunbase.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentcompilertest.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentfilter.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentfilterkernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentiteratekernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentmedian.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentthreadengine.h \
+ /usr/include/qt6/QtCore/qwaitcondition.h \
+ /usr/include/qt6/QtCore/qsemaphore.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentmapkernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentreducekernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentfunctionwrappers.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentcompilertest.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentfilterkernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentfunctionwrappers.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentiteratekernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentmap.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentmapkernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentmedian.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentreducekernel.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentrun.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentrunbase.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentstoredfunctioncall.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrenttask.h \
+ /usr/include/qt6/QtConcurrent/qtaskbuilder.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentthreadengine.h \
+ /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
+ /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/thread \
+ /usr/local/include/matplot/matplot.h \
+ /usr/local/include/matplot/util/common.h \
+ /usr/local/include/matplot/detail/config.h \
+ /usr/local/include/matplot/detail/exports.h /usr/include/c++/14/complex \
+ /usr/local/include/matplot/util/concepts.h \
+ /usr/local/include/matplot/util/handle_types.h \
+ /usr/local/include/matplot/util/type_traits.h \
+ /usr/local/include/matplot/util/geodata.h \
+ /usr/local/include/matplot/backend/backend_interface.h \
+ /usr/local/include/matplot/backend/backend_registry.h \
+ /usr/local/include/matplot/backend/gnuplot.h \
+ /usr/local/include/matplot/core/axes_type.h \
+ /usr/local/include/matplot/util/colors.h \
+ /usr/local/include/matplot/util/keywords.h \
+ /usr/local/include/matplot/core/axis_type.h \
+ /usr/local/include/matplot/core/legend.h \
+ /usr/local/include/matplot/core/line_spec.h \
+ /usr/local/include/matplot/axes_objects/error_bar.h \
+ /usr/local/include/matplot/axes_objects/line.h \
+ /usr/local/include/matplot/core/axes_object.h \
+ /usr/local/include/matplot/core/figure_type.h \
+ /usr/include/c++/14/fstream \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/14/bits/fstream.tcc \
+ /usr/local/include/matplot/util/popen.h \
+ /usr/local/include/matplot/axes_objects/function_line.h \
+ /usr/local/include/matplot/axes_objects/histogram.h \
+ /usr/local/include/matplot/axes_objects/bars.h \
+ /usr/local/include/matplot/axes_objects/box_chart.h \
+ /usr/local/include/matplot/axes_objects/circles.h \
+ /usr/local/include/matplot/axes_objects/contours.h \
+ /usr/local/include/matplot/util/contourc.h \
+ /usr/local/include/matplot/axes_objects/filled_area.h \
+ /usr/local/include/matplot/axes_objects/labels.h \
+ /usr/local/include/matplot/axes_objects/matrix.h \
+ /usr/local/include/matplot/axes_objects/network.h \
+ /usr/local/include/matplot/axes_objects/parallel_lines.h \
+ /usr/local/include/matplot/axes_objects/stair.h \
+ /usr/local/include/matplot/axes_objects/string_function.h \
+ /usr/local/include/matplot/axes_objects/surface.h \
+ /usr/local/include/matplot/axes_objects/vectors.h \
+ /usr/local/include/matplot/freestanding/axes_functions.h \
+ /usr/local/include/matplot/freestanding/axes_lim.h \
+ /usr/local/include/matplot/freestanding/histcounts.h \
+ /usr/local/include/matplot/freestanding/plot.h \
+ /usr/local/include/matplot/core/figure_registry.h \
+ /home/tka/source/visucpp/visucpp/wfmcpp.h \
+ /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
+ /usr/include/qt6/QtWidgets/QApplication \
+ /usr/include/qt6/QtWidgets/qapplication.h \
+ /usr/include/qt6/QtGui/qguiapplication.h \
+ /usr/include/qt6/QtGui/qinputmethod.h \
+ /usr/include/qt6/QtGui/qguiapplication_platform.h \
+ /usr/include/qt6/QtWidgets/QHBoxLayout \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
+ /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtGui/qtextdocument.h \
+ /usr/include/qt6/QtWidgets/QLineEdit \
+ /usr/include/qt6/QtWidgets/qlineedit.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
+ /usr/include/qt6/QtGui/qtextoption.h \
+ /usr/include/qt6/QtWidgets/QMainWindow \
+ /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/qt6/QtWidgets/qabstractbutton.h \
+ /usr/include/qt6/QtWidgets/QSpacerItem \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/QStatusBar \
+ /usr/include/qt6/QtWidgets/qstatusbar.h \
+ /usr/include/qt6/QtWidgets/QVBoxLayout \
+ /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qcustomplot.h /usr/include/qt6/QtCore/QPointer \
+ /usr/include/qt6/QtCore/QSharedPointer /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtGui/QPainter /usr/include/qt6/QtGui/qpainter.h \
+ /usr/include/qt6/QtGui/QPainterPath \
+ /usr/include/qt6/QtGui/qpainterpath.h /usr/include/qt6/QtGui/QPaintEvent \
+ /usr/include/qt6/QtGui/qevent.h /usr/include/qt6/QtGui/qeventpoint.h \
+ /usr/include/qt6/QtGui/qvector2d.h /usr/include/qt6/QtGui/qvectornd.h \
+ /usr/include/qt6/QtGui/qpointingdevice.h \
+ /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
+ /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/QSize \
+ /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
+ /usr/include/qt6/QtGui/qtransform.h \
+ /usr/include/qt6/QtGui/qscreen_platform.h \
+ /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/QWheelEvent \
+ /usr/include/qt6/QtGui/QPixmap /usr/include/qt6/QtGui/qpixmap.h \
+ /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/QDateTime \
+ /usr/include/qt6/QtCore/QMultiMap /usr/include/qt6/QtCore/QFlags \
+ /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/QStack \
+ /usr/include/qt6/QtCore/QCache /usr/include/qt6/QtCore/QMargins \
+ /usr/include/qt6/QtCore/qmath.h /usr/include/qt6/QtCore/QtNumeric \
+ /usr/include/qt6/QtPrintSupport/QtPrintSupport \
+ /usr/include/qt6/QtPrintSupport/QtPrintSupportDepends \
+ /usr/include/qt6/QtGui/QtGui /usr/include/qt6/QtGui/QtGuiDepends \
+ /usr/include/qt6/QtGui/qtguiglobal.h \
  /usr/include/qt6/QtGui/qabstractfileiconprovider.h \
  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
  /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \

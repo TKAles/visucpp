@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/visucpp.dir/main.cpp.o.d"
   "CMakeFiles/visucpp.dir/mainwindow.cpp.o"
   "CMakeFiles/visucpp.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/visucpp.dir/qcustomplot.cpp.o"
+  "CMakeFiles/visucpp.dir/qcustomplot.cpp.o.d"
   "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/visucpp.dir/wfmcollection.cpp.o"

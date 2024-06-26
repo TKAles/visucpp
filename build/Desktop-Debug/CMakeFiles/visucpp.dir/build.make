@@ -181,10 +181,11 @@ visucpp: CMakeFiles/visucpp.dir/qcustomplot.cpp.o
 visucpp: CMakeFiles/visucpp.dir/build.make
 visucpp: /usr/lib64/libQt6PrintSupport.so.6.7.1
 visucpp: /usr/lib64/libQt6Widgets.so.6.7.1
+visucpp: /usr/lib64/libQt6Concurrent.so.6.7.1
 visucpp: /usr/lib64/libQt6Gui.so.6.7.1
-visucpp: /usr/lib64/libQt6Core.so.6.7.1
 visucpp: /usr/lib64/libGLX.so
 visucpp: /usr/lib64/libOpenGL.so
+visucpp: /usr/lib64/libQt6Core.so.6.7.1
 visucpp: CMakeFiles/visucpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable visucpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visucpp.dir/link.txt --verbose=$(VERBOSE)
