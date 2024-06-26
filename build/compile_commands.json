@@ -1,20 +1,38 @@
 [
 {
   "directory": "/home/tka/source/visucpp/visucpp/build",
-  "command": "/usr/lib64/ccache/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o -c /home/tka/source/visucpp/visucpp/build/visucpp_autogen/mocs_compilation.cpp",
+  "command": "/usr/lib64/ccache/c++ -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtPrintSupport -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -isystem /home/tka/anaconda3/include/qt/QtConcurrent -g -std=gnu++20 -fPIC -o CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o -c /home/tka/source/visucpp/visucpp/build/visucpp_autogen/mocs_compilation.cpp",
   "file": "/home/tka/source/visucpp/visucpp/build/visucpp_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/tka/source/visucpp/visucpp/build",
-  "command": "/usr/lib64/ccache/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/visucpp.dir/main.cpp.o -c /home/tka/source/visucpp/visucpp/main.cpp",
+  "command": "/usr/lib64/ccache/c++ -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtPrintSupport -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -isystem /home/tka/anaconda3/include/qt/QtConcurrent -g -std=gnu++20 -fPIC -o CMakeFiles/visucpp.dir/main.cpp.o -c /home/tka/source/visucpp/visucpp/main.cpp",
   "file": "/home/tka/source/visucpp/visucpp/main.cpp",
   "output": "CMakeFiles/visucpp.dir/main.cpp.o"
 },
 {
   "directory": "/home/tka/source/visucpp/visucpp/build",
-  "command": "/usr/lib64/ccache/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/visucpp.dir/mainwindow.cpp.o -c /home/tka/source/visucpp/visucpp/mainwindow.cpp",
+  "command": "/usr/lib64/ccache/c++ -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtPrintSupport -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -isystem /home/tka/anaconda3/include/qt/QtConcurrent -g -std=gnu++20 -fPIC -o CMakeFiles/visucpp.dir/mainwindow.cpp.o -c /home/tka/source/visucpp/visucpp/mainwindow.cpp",
   "file": "/home/tka/source/visucpp/visucpp/mainwindow.cpp",
   "output": "CMakeFiles/visucpp.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/tka/source/visucpp/visucpp/build",
+  "command": "/usr/lib64/ccache/c++ -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtPrintSupport -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -isystem /home/tka/anaconda3/include/qt/QtConcurrent -g -std=gnu++20 -fPIC -o CMakeFiles/visucpp.dir/wfmcollection.cpp.o -c /home/tka/source/visucpp/visucpp/wfmcollection.cpp",
+  "file": "/home/tka/source/visucpp/visucpp/wfmcollection.cpp",
+  "output": "CMakeFiles/visucpp.dir/wfmcollection.cpp.o"
+},
+{
+  "directory": "/home/tka/source/visucpp/visucpp/build",
+  "command": "/usr/lib64/ccache/c++ -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtPrintSupport -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -isystem /home/tka/anaconda3/include/qt/QtConcurrent -g -std=gnu++20 -fPIC -o CMakeFiles/visucpp.dir/wfmcpp.cpp.o -c /home/tka/source/visucpp/visucpp/wfmcpp.cpp",
+  "file": "/home/tka/source/visucpp/visucpp/wfmcpp.cpp",
+  "output": "CMakeFiles/visucpp.dir/wfmcpp.cpp.o"
+},
+{
+  "directory": "/home/tka/source/visucpp/visucpp/build",
+  "command": "/usr/lib64/ccache/c++ -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/tka/source/visucpp/visucpp/build/visucpp_autogen/include -isystem /home/tka/anaconda3/include/qt -isystem /home/tka/anaconda3/include/qt/QtPrintSupport -isystem /home/tka/anaconda3/include/qt/QtWidgets -isystem /home/tka/anaconda3/include/qt/QtGui -isystem /home/tka/anaconda3/include/qt/QtCore -isystem /home/tka/anaconda3/./mkspecs/linux-g++ -isystem /home/tka/anaconda3/include/qt/QtConcurrent -g -std=gnu++20 -fPIC -o CMakeFiles/visucpp.dir/qcustomplot.cpp.o -c /home/tka/source/visucpp/visucpp/qcustomplot.cpp",
+  "file": "/home/tka/source/visucpp/visucpp/qcustomplot.cpp",
+  "output": "CMakeFiles/visucpp.dir/qcustomplot.cpp.o"
 }
 ]

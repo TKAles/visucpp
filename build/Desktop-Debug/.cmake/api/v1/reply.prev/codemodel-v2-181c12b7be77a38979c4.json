@@ -7,10 +7,10 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-ede22c8847a79d40397a.json",
+					"jsonFile" : "directory-.-Debug-a7ec076e3380c7634234.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5"
+						"string" : "3.16"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "visucpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-visucpp-Debug-ded2c62a02fb72fe104c.json",
+					"jsonFile" : "target-visucpp-Debug-aa8ecd79c3afd120fd44.json",
 					"name" : "visucpp",
 					"projectIndex" : 0
 				},

@@ -69,8 +69,8 @@ include CMakeFiles/visucpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/visucpp.dir/flags.make
 
-visucpp_autogen/timestamp: /usr/lib64/qt5/bin/moc
-visucpp_autogen/timestamp: /usr/lib64/qt5/bin/uic
+visucpp_autogen/timestamp: /usr/lib64/qt6/libexec/moc
+visucpp_autogen/timestamp: /usr/lib64/qt6/libexec/uic
 visucpp_autogen/timestamp: CMakeFiles/visucpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target visucpp"
 	/usr/bin/cmake -E cmake_autogen /home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/visucpp_autogen.dir/AutogenInfo.json Debug
@@ -118,11 +118,56 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visucpp.dir/mainwindow.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tka/source/visucpp/visucpp/mainwindow.cpp -o CMakeFiles/visucpp.dir/mainwindow.cpp.s
 
+CMakeFiles/visucpp.dir/wfmcollection.cpp.o: CMakeFiles/visucpp.dir/flags.make
+CMakeFiles/visucpp.dir/wfmcollection.cpp.o: /home/tka/source/visucpp/visucpp/wfmcollection.cpp
+CMakeFiles/visucpp.dir/wfmcollection.cpp.o: CMakeFiles/visucpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/visucpp.dir/wfmcollection.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visucpp.dir/wfmcollection.cpp.o -MF CMakeFiles/visucpp.dir/wfmcollection.cpp.o.d -o CMakeFiles/visucpp.dir/wfmcollection.cpp.o -c /home/tka/source/visucpp/visucpp/wfmcollection.cpp
+
+CMakeFiles/visucpp.dir/wfmcollection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/visucpp.dir/wfmcollection.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tka/source/visucpp/visucpp/wfmcollection.cpp > CMakeFiles/visucpp.dir/wfmcollection.cpp.i
+
+CMakeFiles/visucpp.dir/wfmcollection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visucpp.dir/wfmcollection.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tka/source/visucpp/visucpp/wfmcollection.cpp -o CMakeFiles/visucpp.dir/wfmcollection.cpp.s
+
+CMakeFiles/visucpp.dir/wfmcpp.cpp.o: CMakeFiles/visucpp.dir/flags.make
+CMakeFiles/visucpp.dir/wfmcpp.cpp.o: /home/tka/source/visucpp/visucpp/wfmcpp.cpp
+CMakeFiles/visucpp.dir/wfmcpp.cpp.o: CMakeFiles/visucpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/visucpp.dir/wfmcpp.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visucpp.dir/wfmcpp.cpp.o -MF CMakeFiles/visucpp.dir/wfmcpp.cpp.o.d -o CMakeFiles/visucpp.dir/wfmcpp.cpp.o -c /home/tka/source/visucpp/visucpp/wfmcpp.cpp
+
+CMakeFiles/visucpp.dir/wfmcpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/visucpp.dir/wfmcpp.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tka/source/visucpp/visucpp/wfmcpp.cpp > CMakeFiles/visucpp.dir/wfmcpp.cpp.i
+
+CMakeFiles/visucpp.dir/wfmcpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visucpp.dir/wfmcpp.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tka/source/visucpp/visucpp/wfmcpp.cpp -o CMakeFiles/visucpp.dir/wfmcpp.cpp.s
+
+CMakeFiles/visucpp.dir/qcustomplot.cpp.o: CMakeFiles/visucpp.dir/flags.make
+CMakeFiles/visucpp.dir/qcustomplot.cpp.o: /home/tka/source/visucpp/visucpp/qcustomplot.cpp
+CMakeFiles/visucpp.dir/qcustomplot.cpp.o: CMakeFiles/visucpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/visucpp.dir/qcustomplot.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visucpp.dir/qcustomplot.cpp.o -MF CMakeFiles/visucpp.dir/qcustomplot.cpp.o.d -o CMakeFiles/visucpp.dir/qcustomplot.cpp.o -c /home/tka/source/visucpp/visucpp/qcustomplot.cpp
+
+CMakeFiles/visucpp.dir/qcustomplot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/visucpp.dir/qcustomplot.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tka/source/visucpp/visucpp/qcustomplot.cpp > CMakeFiles/visucpp.dir/qcustomplot.cpp.i
+
+CMakeFiles/visucpp.dir/qcustomplot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visucpp.dir/qcustomplot.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tka/source/visucpp/visucpp/qcustomplot.cpp -o CMakeFiles/visucpp.dir/qcustomplot.cpp.s
+
 # Object files for target visucpp
 visucpp_OBJECTS = \
 "CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/visucpp.dir/main.cpp.o" \
-"CMakeFiles/visucpp.dir/mainwindow.cpp.o"
+"CMakeFiles/visucpp.dir/mainwindow.cpp.o" \
+"CMakeFiles/visucpp.dir/wfmcollection.cpp.o" \
+"CMakeFiles/visucpp.dir/wfmcpp.cpp.o" \
+"CMakeFiles/visucpp.dir/qcustomplot.cpp.o"
 
 # External object files for target visucpp
 visucpp_EXTERNAL_OBJECTS =
@@ -130,12 +175,19 @@ visucpp_EXTERNAL_OBJECTS =
 visucpp: CMakeFiles/visucpp.dir/visucpp_autogen/mocs_compilation.cpp.o
 visucpp: CMakeFiles/visucpp.dir/main.cpp.o
 visucpp: CMakeFiles/visucpp.dir/mainwindow.cpp.o
+visucpp: CMakeFiles/visucpp.dir/wfmcollection.cpp.o
+visucpp: CMakeFiles/visucpp.dir/wfmcpp.cpp.o
+visucpp: CMakeFiles/visucpp.dir/qcustomplot.cpp.o
 visucpp: CMakeFiles/visucpp.dir/build.make
-visucpp: /usr/lib64/libQt5Widgets.so.5.15.14
-visucpp: /usr/lib64/libQt5Gui.so.5.15.14
-visucpp: /usr/lib64/libQt5Core.so.5.15.14
+visucpp: /usr/lib64/libQt6PrintSupport.so.6.7.1
+visucpp: /usr/lib64/libQt6Widgets.so.6.7.1
+visucpp: /usr/lib64/libQt6Concurrent.so.6.7.1
+visucpp: /usr/lib64/libQt6Gui.so.6.7.1
+visucpp: /usr/lib64/libGLX.so
+visucpp: /usr/lib64/libOpenGL.so
+visucpp: /usr/lib64/libQt6Core.so.6.7.1
 visucpp: CMakeFiles/visucpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable visucpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable visucpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visucpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
