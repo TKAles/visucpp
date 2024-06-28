@@ -1,9 +1,0 @@
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/visucpp.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/edit_cache.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/rebuild_cache.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/list_install_components.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/install.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/install/local.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/install/strip.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/visucpp_autogen_timestamp_deps.dir
-/home/tka/source/visucpp/visucpp/build/CMakeFiles/visucpp_autogen.dir
