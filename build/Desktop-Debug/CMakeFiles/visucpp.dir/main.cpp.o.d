@@ -746,6 +746,317 @@ CMakeFiles/visucpp.dir/main.cpp.o: \
  /usr/include/qt6/QtConcurrent/qtaskbuilder.h \
  /usr/include/qt6/QtConcurrent/qtconcurrentthreadengine.h \
  /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
+ /usr/include/qt6/QtGui/QShortcut /usr/include/qt6/QtGui/qshortcut.h \
+ /usr/include/qcustomplot.h /usr/include/qt6/QtCore/QPointer \
+ /usr/include/qt6/QtCore/QSharedPointer /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtGui/QPainter /usr/include/qt6/QtGui/qpainter.h \
+ /usr/include/qt6/QtGui/qtextoption.h /usr/include/qt6/QtGui/qpen.h \
+ /usr/include/qt6/QtGui/QPainterPath \
+ /usr/include/qt6/QtGui/qpainterpath.h /usr/include/qt6/QtGui/QPaintEvent \
+ /usr/include/qt6/QtGui/qevent.h /usr/include/qt6/QtGui/qeventpoint.h \
+ /usr/include/qt6/QtGui/qvector2d.h /usr/include/qt6/QtGui/qvectornd.h \
+ /usr/include/qt6/QtGui/qpointingdevice.h \
+ /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
+ /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/QSize \
+ /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
+ /usr/include/qt6/QtGui/qtransform.h \
+ /usr/include/qt6/QtGui/qscreen_platform.h \
+ /usr/include/qt6/QtGui/qguiapplication.h \
+ /usr/include/qt6/QtGui/qinputmethod.h \
+ /usr/include/qt6/QtGui/qguiapplication_platform.h \
+ /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/QWheelEvent \
+ /usr/include/qt6/QtGui/QPixmap /usr/include/qt6/QtGui/qpixmap.h \
+ /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/QDateTime \
+ /usr/include/qt6/QtCore/QMultiMap /usr/include/qt6/QtCore/QFlags \
+ /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/QStack \
+ /usr/include/qt6/QtCore/QCache /usr/include/qt6/QtCore/QMargins \
+ /usr/include/qt6/QtCore/qmath.h /usr/include/qt6/QtCore/QtNumeric \
+ /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtPrintSupport/QtPrintSupport \
+ /usr/include/qt6/QtPrintSupport/QtPrintSupportDepends \
+ /usr/include/qt6/QtGui/QtGui /usr/include/qt6/QtGui/QtGuiDepends \
+ /usr/include/qt6/QtGui/qtguiglobal.h \
+ /usr/include/qt6/QtGui/qabstractfileiconprovider.h \
+ /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+ /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \
+ /usr/include/qt6/QtGui/qglyphrun.h /usr/include/qt6/QtGui/qrawfont.h \
+ /usr/include/qt6/QtGui/qfontdatabase.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextdocument.h \
+ /usr/include/qt6/QtGui/qtextformat.h \
+ /usr/include/qt6/QtGui/qaccessible.h \
+ /usr/include/qt6/QtGui/qaccessible_base.h \
+ /usr/include/qt6/QtGui/qaccessiblebridge.h \
+ /usr/include/qt6/QtCore/qfactoryinterface.h \
+ /usr/include/qt6/QtGui/qaccessibleobject.h \
+ /usr/include/qt6/QtGui/qaccessible.h \
+ /usr/include/qt6/QtGui/qaccessibleplugin.h \
+ /usr/include/qt6/QtGui/qaction.h /usr/include/qt6/QtGui/qactiongroup.h \
+ /usr/include/qt6/QtGui/qbackingstore.h /usr/include/qt6/QtGui/qwindow.h \
+ /usr/include/qt6/QtCore/QEvent /usr/include/qt6/QtGui/qsurface.h \
+ /usr/include/qt6/QtGui/qsurfaceformat.h /usr/include/qt6/QtGui/qbitmap.h \
+ /usr/include/qt6/QtGui/qbrush.h /usr/include/qt6/QtGui/qclipboard.h \
+ /usr/include/qt6/QtGui/qcolor.h /usr/include/qt6/QtGui/qcolorspace.h \
+ /usr/include/qt6/QtGui/qcolortransform.h \
+ /usr/include/qt6/QtGui/qcolortransform.h \
+ /usr/include/qt6/QtGui/qcursor.h \
+ /usr/include/qt6/QtGui/qdesktopservices.h /usr/include/qt6/QtGui/qdrag.h \
+ /usr/include/qt6/QtGui/qeventpoint.h \
+ /usr/include/qt6/QtGui/qfilesystemmodel.h \
+ /usr/include/qt6/QtCore/qdiriterator.h /usr/include/qt6/QtGui/qfont.h \
+ /usr/include/qt6/QtGui/qfontdatabase.h \
+ /usr/include/qt6/QtGui/qfontinfo.h /usr/include/qt6/QtGui/qfontmetrics.h \
+ /usr/include/qt6/QtGui/qgenericmatrix.h \
+ /usr/include/qt6/QtGui/qgenericplugin.h \
+ /usr/include/qt6/QtGui/qgenericpluginfactory.h \
+ /usr/include/qt6/QtGui/qglyphrun.h \
+ /usr/include/qt6/QtGui/qguiapplication.h /usr/include/qt6/QtGui/qicon.h \
+ /usr/include/qt6/QtGui/qiconengine.h \
+ /usr/include/qt6/QtGui/qiconengineplugin.h \
+ /usr/include/qt6/QtGui/qimage.h /usr/include/qt6/QtGui/qimageiohandler.h \
+ /usr/include/qt6/QtGui/qimagereader.h \
+ /usr/include/qt6/QtGui/qimageiohandler.h \
+ /usr/include/qt6/QtGui/qimagewriter.h \
+ /usr/include/qt6/QtGui/qinputdevice.h \
+ /usr/include/qt6/QtGui/qinputmethod.h \
+ /usr/include/qt6/QtGui/qkeysequence.h \
+ /usr/include/qt6/QtGui/qmatrix4x4.h /usr/include/qt6/QtGui/qvector3d.h \
+ /usr/include/qt6/QtGui/qvector4d.h /usr/include/qt6/QtGui/qquaternion.h \
+ /usr/include/qt6/QtGui/qgenericmatrix.h /usr/include/qt6/QtGui/qmovie.h \
+ /usr/include/qt6/QtGui/qimagereader.h \
+ /usr/include/qt6/QtGui/qoffscreensurface.h \
+ /usr/include/qt6/QtGui/qoffscreensurface_platform.h \
+ /usr/include/qt6/QtGui/qoffscreensurface.h \
+ /usr/include/qt6/QtGui/qopengl.h /usr/include/GL/gl.h \
+ /usr/include/qt6/QtGui/qopenglext.h /usr/include/inttypes.h \
+ /usr/include/qt6/QtGui/qopenglcontext.h \
+ /usr/include/qt6/QtGui/QSurfaceFormat \
+ /usr/include/qt6/QtGui/qsurfaceformat.h /usr/include/qt6/QtGui/qopengl.h \
+ /usr/include/qt6/QtGui/qopenglcontext_platform.h \
+ /usr/include/qt6/QtGui/qopenglcontext.h \
+ /usr/include/qt6/QtGui/qopenglextrafunctions.h \
+ /usr/include/qt6/QtGui/qopenglfunctions.h \
+ /usr/include/qt6/QtGui/qopenglfunctions.h \
+ /usr/include/qt6/QtGui/qpagedpaintdevice.h \
+ /usr/include/qt6/QtGui/qpagelayout.h /usr/include/qt6/QtGui/qpagesize.h \
+ /usr/include/qt6/QtGui/qpageranges.h \
+ /usr/include/qt6/QtGui/qpagelayout.h \
+ /usr/include/qt6/QtGui/qpageranges.h /usr/include/qt6/QtGui/qpagesize.h \
+ /usr/include/qt6/QtGui/qpaintdevice.h \
+ /usr/include/qt6/QtGui/qpaintdevicewindow.h \
+ /usr/include/qt6/QtGui/QWindow /usr/include/qt6/QtGui/qwindow.h \
+ /usr/include/qt6/QtGui/QPaintDevice \
+ /usr/include/qt6/QtGui/qpaintengine.h /usr/include/qt6/QtGui/qpainter.h \
+ /usr/include/qt6/QtGui/qpalette.h /usr/include/qt6/QtGui/qpdfwriter.h \
+ /usr/include/qt6/QtGui/qpagedpaintdevice.h /usr/include/qt6/QtGui/qpen.h \
+ /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtGui/qpixelformat.h \
+ /usr/include/qt6/QtGui/qpixmapcache.h \
+ /usr/include/qt6/QtGui/qpointingdevice.h \
+ /usr/include/qt6/QtGui/qpolygon.h /usr/include/qt6/QtGui/qquaternion.h \
+ /usr/include/qt6/QtGui/qrasterwindow.h \
+ /usr/include/qt6/QtGui/QPaintDeviceWindow \
+ /usr/include/qt6/QtGui/qrawfont.h /usr/include/qt6/QtGui/qregion.h \
+ /usr/include/qt6/QtGui/qrgb.h /usr/include/qt6/QtGui/qrgba64.h \
+ /usr/include/qt6/QtGui/qrgbafloat.h /usr/include/qt6/QtGui/qscreen.h \
+ /usr/include/qt6/QtGui/qsessionmanager.h \
+ /usr/include/qt6/QtGui/qstandarditemmodel.h \
+ /usr/include/qt6/QtGui/qstatictext.h \
+ /usr/include/qt6/QtGui/qstylehints.h /usr/include/qt6/QtGui/qsurface.h \
+ /usr/include/qt6/QtGui/qsyntaxhighlighter.h \
+ /usr/include/qt6/QtGui/qtextobject.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextdocument.h \
+ /usr/include/qt6/QtGui/qtextdocumentfragment.h \
+ /usr/include/qt6/QtGui/qtextdocumentwriter.h \
+ /usr/include/qt6/QtGui/qtextformat.h \
+ /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qtextlist.h \
+ /usr/include/qt6/QtGui/qtextobject.h \
+ /usr/include/qt6/QtGui/qtextoption.h /usr/include/qt6/QtGui/qtexttable.h \
+ /usr/include/qt6/QtGui/qtguiversion.h \
+ /usr/include/qt6/QtGui/qundogroup.h /usr/include/qt6/QtGui/qundostack.h \
+ /usr/include/qt6/QtGui/qvalidator.h /usr/include/qt6/QtGui/qvector2d.h \
+ /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvector4d.h \
+ /usr/include/qt6/QtGui/qvectornd.h /usr/include/qt6/QtGui/qwindowdefs.h \
+ /usr/include/qt6/QtWidgets/QtWidgets \
+ /usr/include/qt6/QtWidgets/QtWidgetsDepends \
+ /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt6/QtWidgets/qabstractbutton.h \
+ /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt6/QtWidgets/qstyleoption.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtGui/qvalidator.h /usr/include/qt6/QtWidgets/qslider.h \
+ /usr/include/qt6/QtWidgets/qabstractslider.h \
+ /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
+ /usr/include/qt6/QtWidgets/qrubberband.h \
+ /usr/include/qt6/QtWidgets/qframe.h \
+ /usr/include/qt6/QtWidgets/qabstractitemview.h \
+ /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt6/QtCore/qitemselectionmodel.h \
+ /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt6/QtWidgets/qabstractslider.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtWidgets/qaccessiblewidget.h \
+ /usr/include/qt6/QtGui/qaccessibleobject.h \
+ /usr/include/qt6/QtWidgets/qaction.h /usr/include/qt6/QtGui/QAction \
+ /usr/include/qt6/QtWidgets/qactiongroup.h \
+ /usr/include/qt6/QtGui/QActionGroup \
+ /usr/include/qt6/QtWidgets/qapplication.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/qt6/QtWidgets/qbuttongroup.h \
+ /usr/include/qt6/QtWidgets/qcalendarwidget.h \
+ /usr/include/qt6/QtWidgets/qcheckbox.h \
+ /usr/include/qt6/QtWidgets/qabstractbutton.h \
+ /usr/include/qt6/QtWidgets/qcolordialog.h \
+ /usr/include/qt6/QtWidgets/qdialog.h \
+ /usr/include/qt6/QtWidgets/qcolormap.h \
+ /usr/include/qt6/QtWidgets/qcolumnview.h \
+ /usr/include/qt6/QtWidgets/qabstractitemview.h \
+ /usr/include/qt6/QtWidgets/qcombobox.h \
+ /usr/include/qt6/QtWidgets/qcommandlinkbutton.h \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/qt6/QtWidgets/qcommonstyle.h \
+ /usr/include/qt6/QtWidgets/qcompleter.h \
+ /usr/include/qt6/QtWidgets/qdatawidgetmapper.h \
+ /usr/include/qt6/QtWidgets/qdatetimeedit.h \
+ /usr/include/qt6/QtWidgets/qdial.h /usr/include/qt6/QtWidgets/qdialog.h \
+ /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/qt6/QtWidgets/qdockwidget.h \
+ /usr/include/qt6/QtWidgets/qdrawutil.h \
+ /usr/include/qt6/QtWidgets/qerrormessage.h \
+ /usr/include/qt6/QtWidgets/qfiledialog.h \
+ /usr/include/qt6/QtWidgets/qfileiconprovider.h \
+ /usr/include/qt6/QtGui/qabstractfileiconprovider.h \
+ /usr/include/qt6/QtWidgets/qfilesystemmodel.h \
+ /usr/include/qt6/QtGui/QFileSystemModel \
+ /usr/include/qt6/QtWidgets/qfocusframe.h \
+ /usr/include/qt6/QtWidgets/qfontcombobox.h \
+ /usr/include/qt6/QtWidgets/qcombobox.h \
+ /usr/include/qt6/QtWidgets/qfontdialog.h \
+ /usr/include/qt6/QtWidgets/qformlayout.h \
+ /usr/include/qt6/QtWidgets/QLayout /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qframe.h \
+ /usr/include/qt6/QtWidgets/qgesture.h \
+ /usr/include/qt6/QtWidgets/qgesturerecognizer.h \
+ /usr/include/qt6/QtWidgets/qgraphicsanchorlayout.h \
+ /usr/include/qt6/QtWidgets/qgraphicsitem.h \
+ /usr/include/qt6/QtGui/qpainterpath.h \
+ /usr/include/qt6/QtWidgets/qgraphicslayout.h \
+ /usr/include/qt6/QtWidgets/qgraphicslayoutitem.h \
+ /usr/include/qt6/QtWidgets/qgraphicseffect.h \
+ /usr/include/qt6/QtWidgets/qgraphicsgridlayout.h \
+ /usr/include/qt6/QtWidgets/qgraphicsitem.h \
+ /usr/include/qt6/QtWidgets/qgraphicsitemanimation.h \
+ /usr/include/qt6/QtWidgets/qgraphicslayout.h \
+ /usr/include/qt6/QtWidgets/qgraphicslayoutitem.h \
+ /usr/include/qt6/QtWidgets/qgraphicslinearlayout.h \
+ /usr/include/qt6/QtWidgets/qgraphicsproxywidget.h \
+ /usr/include/qt6/QtWidgets/qgraphicswidget.h \
+ /usr/include/qt6/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt6/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/qt6/QtWidgets/qgraphicstransform.h \
+ /usr/include/qt6/QtGui/QVector3D /usr/include/qt6/QtGui/QMatrix4x4 \
+ /usr/include/qt6/QtWidgets/qgraphicsview.h \
+ /usr/include/qt6/QtWidgets/qscrollarea.h \
+ /usr/include/qt6/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt6/QtWidgets/qgraphicswidget.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/qt6/QtWidgets/qgroupbox.h \
+ /usr/include/qt6/QtWidgets/qheaderview.h \
+ /usr/include/qt6/QtWidgets/qinputdialog.h \
+ /usr/include/qt6/QtWidgets/qlineedit.h \
+ /usr/include/qt6/QtWidgets/qitemdelegate.h \
+ /usr/include/qt6/QtWidgets/qitemeditorfactory.h \
+ /usr/include/qt6/QtCore/qmetaobject.h \
+ /usr/include/qt6/QtWidgets/qkeysequenceedit.h \
+ /usr/include/qt6/QtWidgets/qlabel.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qlcdnumber.h \
+ /usr/include/qt6/QtWidgets/qlineedit.h \
+ /usr/include/qt6/QtWidgets/qlistview.h \
+ /usr/include/qt6/QtWidgets/qlistwidget.h \
+ /usr/include/qt6/QtWidgets/qlistview.h \
+ /usr/include/qt6/QtWidgets/qmdiarea.h \
+ /usr/include/qt6/QtWidgets/qmdisubwindow.h \
+ /usr/include/qt6/QtWidgets/qmenu.h /usr/include/qt6/QtWidgets/qmenubar.h \
+ /usr/include/qt6/QtWidgets/qmenu.h \
+ /usr/include/qt6/QtWidgets/qmessagebox.h \
+ /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/qt6/QtWidgets/qplaintextedit.h \
+ /usr/include/qt6/QtWidgets/qtextedit.h \
+ /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+ /usr/include/qt6/QtWidgets/qprogressbar.h \
+ /usr/include/qt6/QtWidgets/qprogressdialog.h \
+ /usr/include/qt6/QtWidgets/qproxystyle.h \
+ /usr/include/qt6/QtWidgets/QCommonStyle \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/qt6/QtWidgets/qradiobutton.h \
+ /usr/include/qt6/QtWidgets/qrhiwidget.h \
+ /usr/include/qt6/QtWidgets/qrubberband.h \
+ /usr/include/qt6/QtWidgets/qscrollarea.h \
+ /usr/include/qt6/QtWidgets/qscrollbar.h \
+ /usr/include/qt6/QtWidgets/qscroller.h /usr/include/qt6/QtCore/QPointF \
+ /usr/include/qt6/QtWidgets/QScrollerProperties \
+ /usr/include/qt6/QtWidgets/qscrollerproperties.h \
+ /usr/include/qt6/QtCore/QScopedPointer /usr/include/qt6/QtCore/QMetaType \
+ /usr/include/qt6/QtWidgets/qshortcut.h /usr/include/qt6/QtGui/QShortcut \
+ /usr/include/qt6/QtWidgets/qsizegrip.h \
+ /usr/include/qt6/QtWidgets/qsizepolicy.h \
+ /usr/include/qt6/QtWidgets/qslider.h \
+ /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/qsplashscreen.h \
+ /usr/include/qt6/QtWidgets/qsplitter.h \
+ /usr/include/qt6/QtWidgets/qstackedlayout.h \
+ /usr/include/qt6/QtWidgets/qstackedwidget.h \
+ /usr/include/qt6/QtWidgets/qstatusbar.h \
+ /usr/include/qt6/QtWidgets/qstyle.h \
+ /usr/include/qt6/QtWidgets/qstyleditemdelegate.h \
+ /usr/include/qt6/QtWidgets/qstylefactory.h \
+ /usr/include/qt6/QtWidgets/qstyleoption.h \
+ /usr/include/qt6/QtWidgets/qstylepainter.h \
+ /usr/include/qt6/QtWidgets/qstyleplugin.h \
+ /usr/include/qt6/QtWidgets/qsystemtrayicon.h \
+ /usr/include/qt6/QtWidgets/qtabbar.h \
+ /usr/include/qt6/QtWidgets/qtableview.h \
+ /usr/include/qt6/QtWidgets/qtablewidget.h \
+ /usr/include/qt6/QtWidgets/qtableview.h \
+ /usr/include/qt6/QtWidgets/qtabwidget.h \
+ /usr/include/qt6/QtWidgets/qtextbrowser.h \
+ /usr/include/qt6/QtWidgets/qtextedit.h \
+ /usr/include/qt6/QtWidgets/qtoolbar.h \
+ /usr/include/qt6/QtWidgets/qtoolbox.h \
+ /usr/include/qt6/QtWidgets/qtoolbutton.h \
+ /usr/include/qt6/QtWidgets/qtooltip.h \
+ /usr/include/qt6/QtWidgets/qtreeview.h \
+ /usr/include/qt6/QtWidgets/qtreewidget.h \
+ /usr/include/qt6/QtWidgets/qtreeview.h \
+ /usr/include/qt6/QtWidgets/qtreewidgetitemiterator.h \
+ /usr/include/qt6/QtWidgets/qtreewidgetitemiterator.h \
+ /usr/include/qt6/QtWidgets/qtwidgetsversion.h \
+ /usr/include/qt6/QtWidgets/qundoview.h \
+ /usr/include/qt6/QtWidgets/qwhatsthis.h \
+ /usr/include/qt6/QtWidgets/qwidgetaction.h \
+ /usr/include/qt6/QtWidgets/qwizard.h \
+ /usr/include/qt6/QtPrintSupport/qtprintsupportglobal.h \
+ /usr/include/qt6/QtPrintSupport/qtprintsupport-config.h \
+ /usr/include/qt6/QtPrintSupport/qtprintsupportexports.h \
+ /usr/include/qt6/QtPrintSupport/qabstractprintdialog.h \
+ /usr/include/qt6/QtPrintSupport/qtprintsupportglobal.h \
+ /usr/include/qt6/QtPrintSupport/qpagesetupdialog.h \
+ /usr/include/qt6/QtPrintSupport/qprintdialog.h \
+ /usr/include/qt6/QtPrintSupport/qabstractprintdialog.h \
+ /usr/include/qt6/QtPrintSupport/qprintengine.h \
+ /usr/include/qt6/QtPrintSupport/qprinter.h \
+ /usr/include/qt6/QtPrintSupport/qprinter.h \
+ /usr/include/qt6/QtPrintSupport/qprinterinfo.h \
+ /usr/include/qt6/QtPrintSupport/qprintpreviewdialog.h \
+ /usr/include/qt6/QtPrintSupport/qprintpreviewwidget.h \
+ /usr/include/qt6/QtPrintSupport/qtprintsupportversion.h \
+ /usr/include/qt6/QtCore/QElapsedTimer /usr/include/qt6/QtCore/QTimeZone \
  /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/thread \
  /usr/local/include/matplot/matplot.h \
@@ -795,9 +1106,5 @@ CMakeFiles/visucpp.dir/main.cpp.o: \
  /usr/local/include/matplot/freestanding/histcounts.h \
  /usr/local/include/matplot/freestanding/plot.h \
  /usr/local/include/matplot/core/figure_registry.h \
- /home/tka/source/visucpp/visucpp/wfmcpp.h \
- /usr/include/qt6/QtWidgets/QApplication \
- /usr/include/qt6/QtWidgets/qapplication.h \
- /usr/include/qt6/QtGui/qguiapplication.h \
- /usr/include/qt6/QtGui/qinputmethod.h \
- /usr/include/qt6/QtGui/qguiapplication_platform.h
+ /home/tka/source/visucpp/visucpp/wfmcpp.h /usr/include/fftw3.h \
+ /usr/include/qt6/QtWidgets/QApplication

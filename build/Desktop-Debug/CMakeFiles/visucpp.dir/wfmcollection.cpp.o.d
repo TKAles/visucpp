@@ -285,4 +285,4 @@ CMakeFiles/visucpp.dir/wfmcollection.cpp.o: \
  /usr/local/include/matplot/freestanding/plot.h \
  /usr/local/include/matplot/core/figure_registry.h \
  /home/tka/source/visucpp/visucpp/wfmcpp.h /usr/include/c++/14/cstring \
- /usr/include/string.h /usr/include/strings.h
+ /usr/include/string.h /usr/include/strings.h /usr/include/fftw3.h

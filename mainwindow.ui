@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>VISUplusplus</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -197,13 +197,23 @@
        </layout>
       </item>
       <item>
-       <widget class="QCustomPlot" name="displayWidget" native="true">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
+       <widget class="QTabWidget" name="scanViewTabWidget">
+        <property name="tabPosition">
+         <enum>QTabWidget::TabPosition::South</enum>
         </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="viewtab_0">
+         <attribute name="title">
+          <string>Scan View</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QCustomPlot" name="displayWidget_0" native="true"/>
+          </item>
+         </layout>
+        </widget>
        </widget>
       </item>
      </layout>

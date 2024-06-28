@@ -67,9 +67,9 @@ include CMakeFiles/visucpp_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/visucpp_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/libQt6Core.so.6.7.1
-CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/qt6/libexec/uic
-CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/libQt6Concurrent.so.6.7.1
 CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/libQt6Widgets.so.6.7.1
+CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/libQt6Concurrent.so.6.7.1
+CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/qt6/libexec/uic
 CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/qt6/libexec/moc
 CMakeFiles/visucpp_autogen_timestamp_deps: /usr/lib64/libQt6PrintSupport.so.6.7.1
 

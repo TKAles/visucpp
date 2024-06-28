@@ -25,6 +25,8 @@
 		"/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-GNU.cmake",
 		"/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib64/cmake/fftw3/FFTW3ConfigVersion.cmake",
+		"/usr/lib64/cmake/fftw3/FFTW3Config.cmake",
 		"/usr/lib64/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/usr/lib64/cmake/Qt6/Qt6Config.cmake",
@@ -467,7 +469,10 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"/home/tka/source/visucpp/visucpp/build/Desktop-Debug/libfftw3_autogen/include/ui_mainwindow.h"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
 	"PARSE_CACHE_FILE" : "/home/tka/source/visucpp/visucpp/build/Desktop-Debug/CMakeFiles/visucpp_autogen.dir/ParseCache.txt",
@@ -486,7 +491,10 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/tka/source/visucpp/visucpp/build/Desktop-Debug/libfftw3_autogen/include/ui_mainwindow.h"
+	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }
