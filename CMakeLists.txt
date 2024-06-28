@@ -9,21 +9,29 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
+find_package(FFTW3 REQUIRED)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets PrintSupport Concurrent)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets PrintSupport Concurrent)
+
 set(PROJECT_SOURCES
+        # Qt and GUI related files.
         main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        # Scan collection logic
         wfmcollection.hpp
         wfmcollection.cpp
+        # File decode logic
         wfmcpp.h
         wfmcpp.cpp
+        # QCustomPlot https://www.qcustomplot.com
         qcustomplot.cpp
         qcustomplot.h
 )
+
+# Find the FFTW3 library on the system to link against.
+add_library(libfftw3 SHARED)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(visucpp
@@ -48,9 +56,12 @@ else()
     endif()
 endif()
 
+# Qt Required Links for QCustomPlot
 target_link_libraries(visucpp PRIVATE Qt${QT_VERSION_MAJOR}::PrintSupport)
 target_link_libraries(visucpp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 target_link_libraries(visucpp PRIVATE Qt${QT_VERSION_MAJOR}::Concurrent)
+# FFTW Linkage
+target_link_libraries(visucpp PRIVATE fftw3)
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.

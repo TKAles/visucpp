@@ -746,89 +746,11 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtConcurrent/qtaskbuilder.h \
  /usr/include/qt6/QtConcurrent/qtconcurrentthreadengine.h \
  /usr/include/qt6/QtConcurrent/qtconcurrentversion.h \
- /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
- /usr/include/c++/14/iostream /usr/include/c++/14/thread \
- /usr/local/include/matplot/matplot.h \
- /usr/local/include/matplot/util/common.h \
- /usr/local/include/matplot/detail/config.h \
- /usr/local/include/matplot/detail/exports.h /usr/include/c++/14/complex \
- /usr/local/include/matplot/util/concepts.h \
- /usr/local/include/matplot/util/handle_types.h \
- /usr/local/include/matplot/util/type_traits.h \
- /usr/local/include/matplot/util/geodata.h \
- /usr/local/include/matplot/backend/backend_interface.h \
- /usr/local/include/matplot/backend/backend_registry.h \
- /usr/local/include/matplot/backend/gnuplot.h \
- /usr/local/include/matplot/core/axes_type.h \
- /usr/local/include/matplot/util/colors.h \
- /usr/local/include/matplot/util/keywords.h \
- /usr/local/include/matplot/core/axis_type.h \
- /usr/local/include/matplot/core/legend.h \
- /usr/local/include/matplot/core/line_spec.h \
- /usr/local/include/matplot/axes_objects/error_bar.h \
- /usr/local/include/matplot/axes_objects/line.h \
- /usr/local/include/matplot/core/axes_object.h \
- /usr/local/include/matplot/core/figure_type.h \
- /usr/include/c++/14/fstream \
- /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc \
- /usr/local/include/matplot/util/popen.h \
- /usr/local/include/matplot/axes_objects/function_line.h \
- /usr/local/include/matplot/axes_objects/histogram.h \
- /usr/local/include/matplot/axes_objects/bars.h \
- /usr/local/include/matplot/axes_objects/box_chart.h \
- /usr/local/include/matplot/axes_objects/circles.h \
- /usr/local/include/matplot/axes_objects/contours.h \
- /usr/local/include/matplot/util/contourc.h \
- /usr/local/include/matplot/axes_objects/filled_area.h \
- /usr/local/include/matplot/axes_objects/labels.h \
- /usr/local/include/matplot/axes_objects/matrix.h \
- /usr/local/include/matplot/axes_objects/network.h \
- /usr/local/include/matplot/axes_objects/parallel_lines.h \
- /usr/local/include/matplot/axes_objects/stair.h \
- /usr/local/include/matplot/axes_objects/string_function.h \
- /usr/local/include/matplot/axes_objects/surface.h \
- /usr/local/include/matplot/axes_objects/vectors.h \
- /usr/local/include/matplot/freestanding/axes_functions.h \
- /usr/local/include/matplot/freestanding/axes_lim.h \
- /usr/local/include/matplot/freestanding/histcounts.h \
- /usr/local/include/matplot/freestanding/plot.h \
- /usr/local/include/matplot/core/figure_registry.h \
- /home/tka/source/visucpp/visucpp/wfmcpp.h \
- /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
- /usr/include/qt6/QtWidgets/QApplication \
- /usr/include/qt6/QtWidgets/qapplication.h \
- /usr/include/qt6/QtGui/qguiapplication.h \
- /usr/include/qt6/QtGui/qinputmethod.h \
- /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/qt6/QtWidgets/QHBoxLayout \
- /usr/include/qt6/QtWidgets/qboxlayout.h \
- /usr/include/qt6/QtWidgets/qlayout.h \
- /usr/include/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/qt6/QtWidgets/qboxlayout.h \
- /usr/include/qt6/QtWidgets/qgridlayout.h \
- /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
- /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
- /usr/include/qt6/QtGui/qtextdocument.h \
- /usr/include/qt6/QtWidgets/QLineEdit \
- /usr/include/qt6/QtWidgets/qlineedit.h \
- /usr/include/qt6/QtGui/qtextcursor.h \
- /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
- /usr/include/qt6/QtGui/qtextoption.h \
- /usr/include/qt6/QtWidgets/QMainWindow \
- /usr/include/qt6/QtWidgets/QPushButton \
- /usr/include/qt6/QtWidgets/qpushbutton.h \
- /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/qt6/QtWidgets/QSpacerItem \
- /usr/include/qt6/QtWidgets/qlayoutitem.h \
- /usr/include/qt6/QtWidgets/QStatusBar \
- /usr/include/qt6/QtWidgets/qstatusbar.h \
- /usr/include/qt6/QtWidgets/QVBoxLayout \
- /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtGui/QShortcut /usr/include/qt6/QtGui/qshortcut.h \
  /usr/include/qcustomplot.h /usr/include/qt6/QtCore/QPointer \
  /usr/include/qt6/QtCore/QSharedPointer /usr/include/qt6/QtCore/QTimer \
  /usr/include/qt6/QtGui/QPainter /usr/include/qt6/QtGui/qpainter.h \
+ /usr/include/qt6/QtGui/qtextoption.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtGui/QPainterPath \
  /usr/include/qt6/QtGui/qpainterpath.h /usr/include/qt6/QtGui/QPaintEvent \
  /usr/include/qt6/QtGui/qevent.h /usr/include/qt6/QtGui/qeventpoint.h \
@@ -839,6 +761,9 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
  /usr/include/qt6/QtGui/qtransform.h \
  /usr/include/qt6/QtGui/qscreen_platform.h \
+ /usr/include/qt6/QtGui/qguiapplication.h \
+ /usr/include/qt6/QtGui/qinputmethod.h \
+ /usr/include/qt6/QtGui/qguiapplication_platform.h \
  /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/QWheelEvent \
  /usr/include/qt6/QtGui/QPixmap /usr/include/qt6/QtGui/qpixmap.h \
  /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/QDateTime \
@@ -846,6 +771,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/QStack \
  /usr/include/qt6/QtCore/QCache /usr/include/qt6/QtCore/QMargins \
  /usr/include/qt6/QtCore/qmath.h /usr/include/qt6/QtCore/QtNumeric \
+ /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtPrintSupport/QtPrintSupport \
  /usr/include/qt6/QtPrintSupport/QtPrintSupportDepends \
  /usr/include/qt6/QtGui/QtGui /usr/include/qt6/QtGui/QtGuiDepends \
@@ -855,6 +781,9 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \
  /usr/include/qt6/QtGui/qglyphrun.h /usr/include/qt6/QtGui/qrawfont.h \
  /usr/include/qt6/QtGui/qfontdatabase.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextdocument.h \
+ /usr/include/qt6/QtGui/qtextformat.h \
  /usr/include/qt6/QtGui/qaccessible.h \
  /usr/include/qt6/QtGui/qaccessible_base.h \
  /usr/include/qt6/QtGui/qaccessiblebridge.h \
@@ -930,7 +859,6 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtGui/qrgb.h /usr/include/qt6/QtGui/qrgba64.h \
  /usr/include/qt6/QtGui/qrgbafloat.h /usr/include/qt6/QtGui/qscreen.h \
  /usr/include/qt6/QtGui/qsessionmanager.h \
- /usr/include/qt6/QtGui/qshortcut.h \
  /usr/include/qt6/QtGui/qstandarditemmodel.h \
  /usr/include/qt6/QtGui/qstatictext.h \
  /usr/include/qt6/QtGui/qstylehints.h /usr/include/qt6/QtGui/qsurface.h \
@@ -960,6 +888,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qabstractslider.h \
  /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
  /usr/include/qt6/QtWidgets/qrubberband.h \
+ /usr/include/qt6/QtWidgets/qframe.h \
  /usr/include/qt6/QtWidgets/qabstractitemview.h \
  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
  /usr/include/qt6/QtCore/qitemselectionmodel.h \
@@ -972,9 +901,16 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qaction.h /usr/include/qt6/QtGui/QAction \
  /usr/include/qt6/QtWidgets/qactiongroup.h \
  /usr/include/qt6/QtGui/QActionGroup \
+ /usr/include/qt6/QtWidgets/qapplication.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
  /usr/include/qt6/QtWidgets/qbuttongroup.h \
  /usr/include/qt6/QtWidgets/qcalendarwidget.h \
  /usr/include/qt6/QtWidgets/qcheckbox.h \
+ /usr/include/qt6/QtWidgets/qabstractbutton.h \
  /usr/include/qt6/QtWidgets/qcolordialog.h \
  /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/qcolormap.h \
@@ -1037,7 +973,10 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qitemeditorfactory.h \
  /usr/include/qt6/QtCore/qmetaobject.h \
  /usr/include/qt6/QtWidgets/qkeysequenceedit.h \
+ /usr/include/qt6/QtWidgets/qlabel.h /usr/include/qt6/QtGui/qpicture.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/qt6/QtWidgets/qlcdnumber.h \
+ /usr/include/qt6/QtWidgets/qlineedit.h \
  /usr/include/qt6/QtWidgets/qlistview.h \
  /usr/include/qt6/QtWidgets/qlistwidget.h \
  /usr/include/qt6/QtWidgets/qlistview.h \
@@ -1054,6 +993,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qprogressdialog.h \
  /usr/include/qt6/QtWidgets/qproxystyle.h \
  /usr/include/qt6/QtWidgets/QCommonStyle \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/qradiobutton.h \
  /usr/include/qt6/QtWidgets/qrhiwidget.h \
  /usr/include/qt6/QtWidgets/qrubberband.h \
@@ -1072,6 +1012,7 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qsplitter.h \
  /usr/include/qt6/QtWidgets/qstackedlayout.h \
  /usr/include/qt6/QtWidgets/qstackedwidget.h \
+ /usr/include/qt6/QtWidgets/qstatusbar.h \
  /usr/include/qt6/QtWidgets/qstyle.h \
  /usr/include/qt6/QtWidgets/qstyleditemdelegate.h \
  /usr/include/qt6/QtWidgets/qstylefactory.h \
@@ -1116,4 +1057,64 @@ CMakeFiles/visucpp.dir/mainwindow.cpp.o: \
  /usr/include/qt6/QtPrintSupport/qprintpreviewwidget.h \
  /usr/include/qt6/QtPrintSupport/qtprintsupportversion.h \
  /usr/include/qt6/QtCore/QElapsedTimer /usr/include/qt6/QtCore/QTimeZone \
+ /home/tka/source/visucpp/visucpp/wfmcollection.hpp \
+ /usr/include/c++/14/iostream /usr/include/c++/14/thread \
+ /usr/local/include/matplot/matplot.h \
+ /usr/local/include/matplot/util/common.h \
+ /usr/local/include/matplot/detail/config.h \
+ /usr/local/include/matplot/detail/exports.h /usr/include/c++/14/complex \
+ /usr/local/include/matplot/util/concepts.h \
+ /usr/local/include/matplot/util/handle_types.h \
+ /usr/local/include/matplot/util/type_traits.h \
+ /usr/local/include/matplot/util/geodata.h \
+ /usr/local/include/matplot/backend/backend_interface.h \
+ /usr/local/include/matplot/backend/backend_registry.h \
+ /usr/local/include/matplot/backend/gnuplot.h \
+ /usr/local/include/matplot/core/axes_type.h \
+ /usr/local/include/matplot/util/colors.h \
+ /usr/local/include/matplot/util/keywords.h \
+ /usr/local/include/matplot/core/axis_type.h \
+ /usr/local/include/matplot/core/legend.h \
+ /usr/local/include/matplot/core/line_spec.h \
+ /usr/local/include/matplot/axes_objects/error_bar.h \
+ /usr/local/include/matplot/axes_objects/line.h \
+ /usr/local/include/matplot/core/axes_object.h \
+ /usr/local/include/matplot/core/figure_type.h \
+ /usr/include/c++/14/fstream \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/14/bits/fstream.tcc \
+ /usr/local/include/matplot/util/popen.h \
+ /usr/local/include/matplot/axes_objects/function_line.h \
+ /usr/local/include/matplot/axes_objects/histogram.h \
+ /usr/local/include/matplot/axes_objects/bars.h \
+ /usr/local/include/matplot/axes_objects/box_chart.h \
+ /usr/local/include/matplot/axes_objects/circles.h \
+ /usr/local/include/matplot/axes_objects/contours.h \
+ /usr/local/include/matplot/util/contourc.h \
+ /usr/local/include/matplot/axes_objects/filled_area.h \
+ /usr/local/include/matplot/axes_objects/labels.h \
+ /usr/local/include/matplot/axes_objects/matrix.h \
+ /usr/local/include/matplot/axes_objects/network.h \
+ /usr/local/include/matplot/axes_objects/parallel_lines.h \
+ /usr/local/include/matplot/axes_objects/stair.h \
+ /usr/local/include/matplot/axes_objects/string_function.h \
+ /usr/local/include/matplot/axes_objects/surface.h \
+ /usr/local/include/matplot/axes_objects/vectors.h \
+ /usr/local/include/matplot/freestanding/axes_functions.h \
+ /usr/local/include/matplot/freestanding/axes_lim.h \
+ /usr/local/include/matplot/freestanding/histcounts.h \
+ /usr/local/include/matplot/freestanding/plot.h \
+ /usr/local/include/matplot/core/figure_registry.h \
+ /home/tka/source/visucpp/visucpp/wfmcpp.h /usr/include/fftw3.h \
+ /home/tka/source/visucpp/visucpp/build/Desktop-Debug/visucpp_autogen/include/./ui_mainwindow.h \
+ /usr/include/qt6/QtWidgets/QApplication \
+ /usr/include/qt6/QtWidgets/QHBoxLayout /usr/include/qt6/QtWidgets/QLabel \
+ /usr/include/qt6/QtWidgets/QLineEdit \
+ /usr/include/qt6/QtWidgets/QMainWindow \
+ /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/QSpacerItem \
+ /usr/include/qt6/QtWidgets/QStatusBar \
+ /usr/include/qt6/QtWidgets/QTabWidget \
+ /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/QFileDialog
